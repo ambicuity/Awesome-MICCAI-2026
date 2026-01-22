@@ -173,6 +173,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2026, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2026-01-21 08:33 UTC by GitHub Actions
+**Last Updated**: 2026-01-22 08:33 UTC by GitHub Actions
 
 **License**: Apache License 2.0
