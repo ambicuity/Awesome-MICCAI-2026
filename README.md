@@ -56,21 +56,21 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `785`
-- Fetched arXiv records: `3068`
-- Unique arXiv records: `2955`
+- Total code-backed papers: `791`
+- Fetched arXiv records: `3078`
+- Unique arXiv records: `2965`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2170`
+- Filtered (no code links): `2174`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 351 | 649 |
+| Segmentation | 354 | 646 |
 | Reconstruction | 114 | 886 |
-| Classification | 301 | 699 |
-| Image Registration | 95 | 905 |
+| Classification | 302 | 698 |
+| Image Registration | 96 | 904 |
 | Domain Adaptation | 62 | 938 |
-| Generative Models | 169 | 831 |
+| Generative Models | 171 | 829 |
 | General | 89 | 911 |
 <!-- END COVERAGE_REPORT -->
 
@@ -79,6 +79,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v1)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
+* **[XTinyU-Net: Training-Free U-Net Scaling via Initialization-Time Sensitivity](https://arxiv.org/abs/2605.09639v1)** - [Code](https://github.com/alvinkimbowa/nntinyunet) (confidence: medium)
 * **[Glance and Focus Reinforcement for Pan-cancer Screening](https://arxiv.org/abs/2601.19103v2)** - [Code](https://github.com/luffy03/gf-screen) (confidence: high)
 * **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](https://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/ssl-medsam2) (confidence: high)
 * **[The MICCAI Federated Tumor Segmentation (FeTS) Challenge 2024: Efficient and Robust Aggregation Methods for Federated Learning](https://arxiv.org/abs/2512.06206v1)** - [Code](https://github.com/fets-ai/challenge) (confidence: high)
@@ -99,6 +101,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](https://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/tonichopp/simcrop) (confidence: medium)
 * **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](https://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/xoct) (confidence: high)
 * **[Co-Seg: Mutual Prompt-Guided Collaborative Learning for Tissue and Nuclei Segmentation](https://arxiv.org/abs/2509.06740v1)** - [Code](https://github.com/xq141839/co-seg) (confidence: high)
+* **[Dino U-Net: Exploiting High-Fidelity Dense Features from Foundation Models for Medical Image Segmentation](https://arxiv.org/abs/2508.20909v2)** - [Code](https://github.com/yifangao112/dinounet) (confidence: high)
 * **[E-BayesSAM: Efficient Bayesian Adaptation of SAM with Self-Optimizing KAN-Based Interpretation for Uncertainty-Aware Ultrasonic Segmentation](https://arxiv.org/abs/2508.17408v1)** - [Code](https://github.com/mp31192/e-bayessam) (confidence: high)
 * **[Semantic Diffusion Posterior Sampling for Cardiac Ultrasound Dehazing](https://arxiv.org/abs/2508.17326v1)** - [Code](https://github.com/tristan-deep/semantic-diffusion-echo-dehazing) (confidence: medium)
 * **[Comparing Conditional Diffusion Models for Synthesizing Contrast-Enhanced Breast MRI from Pre-Contrast Images](https://arxiv.org/abs/2508.13776v2)** - [Code](https://github.com/sebastibar/conditional-diffusion-breast-mri) (confidence: high)
@@ -558,6 +561,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Contrastive Learning under Noisy Temporal Self-Supervision for Colonoscopy Videos](https://arxiv.org/abs/2605.12320v1)** - [Code](https://github.com/lparolari/ntssl) (confidence: medium)
 * **[Wasserstein-Aligned Localisation for VLM-Based Distributional OOD Detection in Medical Imaging](https://arxiv.org/abs/2605.05161v1)** - [Code](https://github.com/bkainz/waldo_miccai26_demo) (confidence: high)
 * **[Exemplar Diffusion: Improving Medical Object Detection with Opportunistic Labels](https://arxiv.org/abs/2603.15267v1)** - [Code](https://github.com/waahlstrand/exemplardiffusion) (confidence: high)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](https://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/tomaskrsicka/medshapenet19-pspooling) (confidence: high)
@@ -866,6 +870,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[EchoTracker2: Enhancing Myocardial Point Tracking by Modeling Local Motion](https://arxiv.org/abs/2605.12140v1)** - [Code](https://github.com/riponazad/ptecho) (confidence: medium)
 * **[Unsupervised MR-US Multimodal Image Registration with Multilevel Correlation Pyramidal Optimization](https://arxiv.org/abs/2602.06288v2)** - [Code](https://github.com/wjiazheng/mcpo) (confidence: high)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](https://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/sts-challenge-2025) (confidence: high)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](https://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/us-x-complete) (confidence: medium)
@@ -1037,6 +1042,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v1)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
+* **[Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping](https://arxiv.org/abs/2605.07156v1)** - [Code](https://github.com/janghana/hiperfgnn) (confidence: high)
 * **[Exemplar Diffusion: Improving Medical Object Detection with Opportunistic Labels](https://arxiv.org/abs/2603.15267v1)** - [Code](https://github.com/waahlstrand/exemplardiffusion) (confidence: high)
 * **[EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis](https://arxiv.org/abs/2603.13967v1)** - [Code](https://github.com/engemmanuel/echolvfm) (confidence: high)
 * **[TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration](https://arxiv.org/abs/2512.14550v1)** - [Code](https://github.com/yaziwel/tat) (confidence: high)
@@ -1311,6 +1318,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-05-09 09:21 UTC by GitHub Actions
+**Last Updated**: 2026-05-13 10:29 UTC by GitHub Actions
 
 **License**: Apache License 2.0
