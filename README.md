@@ -57,11 +57,11 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Discovery mode: `broad`
 - Tracks: `all`
 - Total code-backed papers: `792`
-- Fetched arXiv records: `3082`
-- Unique arXiv records: `2969`
+- Fetched arXiv records: `3083`
+- Unique arXiv records: `2970`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2177`
+- Filtered (no code links): `2178`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
@@ -80,7 +80,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
 * **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v1)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
-* **[XTinyU-Net: Training-Free U-Net Scaling via Initialization-Time Sensitivity](https://arxiv.org/abs/2605.09639v1)** - [Code](https://github.com/alvinkimbowa/nntinyunet) (confidence: medium)
+* **[XTinyU-Net: Training-Free U-Net Scaling via Initialization-Time Sensitivity](https://arxiv.org/abs/2605.09639v2)** - [Code](https://github.com/alvinkimbowa/nntinyunet) (confidence: medium)
 * **[Glance and Focus Reinforcement for Pan-cancer Screening](https://arxiv.org/abs/2601.19103v2)** - [Code](https://github.com/luffy03/gf-screen) (confidence: high)
 * **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](https://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/ssl-medsam2) (confidence: high)
 * **[The MICCAI Federated Tumor Segmentation (FeTS) Challenge 2024: Efficient and Robust Aggregation Methods for Federated Learning](https://arxiv.org/abs/2512.06206v1)** - [Code](https://github.com/fets-ai/challenge) (confidence: high)
@@ -1320,6 +1320,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-05-14 10:17 UTC by GitHub Actions
+**Last Updated**: 2026-05-15 10:25 UTC by GitHub Actions
 
 **License**: Apache License 2.0
