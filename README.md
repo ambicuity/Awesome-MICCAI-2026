@@ -56,22 +56,22 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `792`
-- Fetched arXiv records: `3083`
-- Unique arXiv records: `2970`
+- Total code-backed papers: `796`
+- Fetched arXiv records: `3088`
+- Unique arXiv records: `2975`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2178`
+- Filtered (no code links): `2179`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 354 | 646 |
+| Segmentation | 356 | 644 |
 | Reconstruction | 114 | 886 |
 | Classification | 303 | 697 |
 | Image Registration | 96 | 904 |
 | Domain Adaptation | 62 | 938 |
 | Generative Models | 172 | 828 |
-| General | 89 | 911 |
+| General | 91 | 909 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -79,7 +79,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
-* **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v1)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
+* **[VoxShield: Protecting 3D Medical Datasets from Unauthorized Training via Frequency-Aware Inter-Slice Disruption](https://arxiv.org/abs/2605.17345v1)** - [Code](https://github.com/kk266299/voxshield) (confidence: medium)
+* **[TriALS: Triphasic-Aided Liver Lesion Segmentation Benchmark in Non-Contrast CT](https://arxiv.org/abs/2605.16572v1)** - [Code](https://github.com/xmed-lab/trials) (confidence: high)
+* **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v2)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
 * **[XTinyU-Net: Training-Free U-Net Scaling via Initialization-Time Sensitivity](https://arxiv.org/abs/2605.09639v2)** - [Code](https://github.com/alvinkimbowa/nntinyunet) (confidence: medium)
 * **[Glance and Focus Reinforcement for Pan-cancer Screening](https://arxiv.org/abs/2601.19103v2)** - [Code](https://github.com/luffy03/gf-screen) (confidence: high)
 * **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](https://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/ssl-medsam2) (confidence: high)
@@ -1044,7 +1046,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
 * **[BrainAnytime: Anatomy-Aware Cross-Modal Pretraining for Brain Image Analysis with Arbitrary Modality Availability](https://arxiv.org/abs/2605.13059v1)** - [Code](https://github.com/sdh-lab/brainanytime) (confidence: medium)
-* **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v1)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
+* **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v2)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
 * **[Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping](https://arxiv.org/abs/2605.07156v1)** - [Code](https://github.com/janghana/hiperfgnn) (confidence: high)
 * **[Exemplar Diffusion: Improving Medical Object Detection with Opportunistic Labels](https://arxiv.org/abs/2603.15267v1)** - [Code](https://github.com/waahlstrand/exemplardiffusion) (confidence: high)
 * **[EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis](https://arxiv.org/abs/2603.13967v1)** - [Code](https://github.com/engemmanuel/echolvfm) (confidence: high)
@@ -1222,6 +1224,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERAL_PAPERS -->
+* **[SurgLQA: Scalable Long-Horizon Surgical Video Question Answering](https://arxiv.org/abs/2605.17915v1)** - [Code](https://github.com/rascalgdd/surglqa) (confidence: medium)
+* **[Network-Aware Bilinear Tokenization for Brain Functional Connectivity Representation Learning](https://arxiv.org/abs/2605.14048v2)** - [Code](https://github.com/leomlck/nerve) (confidence: medium)
 * **[Clinical Graph-Mediated Distillation for Unpaired MRI-to-CFI Hypertension Prediction](https://arxiv.org/abs/2603.21809v1)** - [Code](https://github.com/dillanimans/cgmd-unpaired-distillation) (confidence: medium)
 * **[FusionNet: a frame interpolation network for 4D heart models](https://arxiv.org/abs/2603.10212v1)** - [Code](https://github.com/smiyauchi199/fusionnet) (confidence: medium)
 * **[From 100,000+ images to winning the first brain MRI foundation model challenges: Sharing lessons and models](https://arxiv.org/abs/2601.13166v1)** - [Code](https://github.com/jbanusco/brainfm4challenges) (confidence: medium)
@@ -1320,6 +1324,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-05-16 09:42 UTC by GitHub Actions
+**Last Updated**: 2026-05-19 11:19 UTC by GitHub Actions
 
 **License**: Apache License 2.0
