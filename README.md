@@ -56,19 +56,19 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `796`
-- Fetched arXiv records: `3088`
-- Unique arXiv records: `2975`
+- Total code-backed papers: `797`
+- Fetched arXiv records: `3089`
+- Unique arXiv records: `2976`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
 - Filtered (no code links): `2179`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 356 | 644 |
+| Segmentation | 357 | 643 |
 | Reconstruction | 114 | 886 |
-| Classification | 303 | 697 |
-| Image Registration | 96 | 904 |
+| Classification | 304 | 696 |
+| Image Registration | 97 | 903 |
 | Domain Adaptation | 62 | 938 |
 | Generative Models | 172 | 828 |
 | General | 91 | 909 |
@@ -79,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: medium)
 * **[VoxShield: Protecting 3D Medical Datasets from Unauthorized Training via Frequency-Aware Inter-Slice Disruption](https://arxiv.org/abs/2605.17345v1)** - [Code](https://github.com/kk266299/voxshield) (confidence: medium)
 * **[TriALS: Triphasic-Aided Liver Lesion Segmentation Benchmark in Non-Contrast CT](https://arxiv.org/abs/2605.16572v1)** - [Code](https://github.com/xmed-lab/trials) (confidence: high)
 * **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v2)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
@@ -563,8 +564,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: high)
 * **[BrainAnytime: Anatomy-Aware Cross-Modal Pretraining for Brain Image Analysis with Arbitrary Modality Availability](https://arxiv.org/abs/2605.13059v1)** - [Code](https://github.com/sdh-lab/brainanytime) (confidence: medium)
-* **[Contrastive Learning under Noisy Temporal Self-Supervision for Colonoscopy Videos](https://arxiv.org/abs/2605.12320v1)** - [Code](https://github.com/lparolari/ntssl) (confidence: medium)
+* **[Contrastive Learning under Noisy Temporal Self-Supervision for Colonoscopy Videos](https://arxiv.org/abs/2605.12320v2)** - [Code](https://github.com/lparolari/ntssl) (confidence: medium)
 * **[Wasserstein-Aligned Localisation for VLM-Based Distributional OOD Detection in Medical Imaging](https://arxiv.org/abs/2605.05161v1)** - [Code](https://github.com/bkainz/waldo_miccai26_demo) (confidence: high)
 * **[Exemplar Diffusion: Improving Medical Object Detection with Opportunistic Labels](https://arxiv.org/abs/2603.15267v1)** - [Code](https://github.com/waahlstrand/exemplardiffusion) (confidence: high)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](https://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/tomaskrsicka/medshapenet19-pspooling) (confidence: high)
@@ -873,6 +875,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: medium)
 * **[EchoTracker2: Enhancing Myocardial Point Tracking by Modeling Local Motion](https://arxiv.org/abs/2605.12140v1)** - [Code](https://github.com/riponazad/ptecho) (confidence: medium)
 * **[Unsupervised MR-US Multimodal Image Registration with Multilevel Correlation Pyramidal Optimization](https://arxiv.org/abs/2602.06288v2)** - [Code](https://github.com/wjiazheng/mcpo) (confidence: high)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](https://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/sts-challenge-2025) (confidence: high)
@@ -1225,7 +1228,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 <!-- BEGIN GENERAL_PAPERS -->
 * **[SurgLQA: Scalable Long-Horizon Surgical Video Question Answering](https://arxiv.org/abs/2605.17915v1)** - [Code](https://github.com/rascalgdd/surglqa) (confidence: medium)
-* **[Network-Aware Bilinear Tokenization for Brain Functional Connectivity Representation Learning](https://arxiv.org/abs/2605.14048v2)** - [Code](https://github.com/leomlck/nerve) (confidence: medium)
+* **[Network-Aware Bilinear Tokenization for Brain Functional Connectivity Representation Learning](https://arxiv.org/abs/2605.14048v3)** - [Code](https://github.com/leomlck/nerve) (confidence: medium)
 * **[Clinical Graph-Mediated Distillation for Unpaired MRI-to-CFI Hypertension Prediction](https://arxiv.org/abs/2603.21809v1)** - [Code](https://github.com/dillanimans/cgmd-unpaired-distillation) (confidence: medium)
 * **[FusionNet: a frame interpolation network for 4D heart models](https://arxiv.org/abs/2603.10212v1)** - [Code](https://github.com/smiyauchi199/fusionnet) (confidence: medium)
 * **[From 100,000+ images to winning the first brain MRI foundation model challenges: Sharing lessons and models](https://arxiv.org/abs/2601.13166v1)** - [Code](https://github.com/jbanusco/brainfm4challenges) (confidence: medium)
@@ -1324,6 +1327,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-05-19 11:19 UTC by GitHub Actions
+**Last Updated**: 2026-05-20 10:51 UTC by GitHub Actions
 
 **License**: Apache License 2.0
