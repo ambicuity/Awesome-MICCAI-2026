@@ -56,18 +56,18 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `797`
-- Fetched arXiv records: `3089`
-- Unique arXiv records: `2976`
+- Total code-backed papers: `800`
+- Fetched arXiv records: `3097`
+- Unique arXiv records: `2984`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2179`
+- Filtered (no code links): `2184`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 357 | 643 |
-| Reconstruction | 114 | 886 |
-| Classification | 304 | 696 |
+| Segmentation | 359 | 641 |
+| Reconstruction | 115 | 885 |
+| Classification | 305 | 695 |
 | Image Registration | 97 | 903 |
 | Domain Adaptation | 62 | 938 |
 | Generative Models | 172 | 828 |
@@ -79,11 +79,13 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[R2AoP: Reliable and Robust Angle of Progression Estimation from Intrapartum Ultrasound](https://arxiv.org/abs/2605.21099v1)** - [Code](https://github.com/baiyou1234/r2aop) (confidence: high)
 * **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: medium)
 * **[VoxShield: Protecting 3D Medical Datasets from Unauthorized Training via Frequency-Aware Inter-Slice Disruption](https://arxiv.org/abs/2605.17345v1)** - [Code](https://github.com/kk266299/voxshield) (confidence: medium)
 * **[TriALS: Triphasic-Aided Liver Lesion Segmentation Benchmark in Non-Contrast CT](https://arxiv.org/abs/2605.16572v1)** - [Code](https://github.com/xmed-lab/trials) (confidence: high)
 * **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v2)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
 * **[XTinyU-Net: Training-Free U-Net Scaling via Initialization-Time Sensitivity](https://arxiv.org/abs/2605.09639v2)** - [Code](https://github.com/alvinkimbowa/nntinyunet) (confidence: medium)
+* **[Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model](https://arxiv.org/abs/2604.19512v2)** - [Code](https://github.com/sextant-fable/us-metrics) (confidence: medium)
 * **[Glance and Focus Reinforcement for Pan-cancer Screening](https://arxiv.org/abs/2601.19103v2)** - [Code](https://github.com/luffy03/gf-screen) (confidence: high)
 * **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](https://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/ssl-medsam2) (confidence: high)
 * **[The MICCAI Federated Tumor Segmentation (FeTS) Challenge 2024: Efficient and Robust Aggregation Methods for Federated Learning](https://arxiv.org/abs/2512.06206v1)** - [Code](https://github.com/fets-ai/challenge) (confidence: high)
@@ -443,6 +445,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
+* **[Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model](https://arxiv.org/abs/2604.19512v2)** - [Code](https://github.com/sextant-fable/us-metrics) (confidence: medium)
 * **[EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis](https://arxiv.org/abs/2603.13967v1)** - [Code](https://github.com/engemmanuel/echolvfm) (confidence: medium)
 * **[TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration](https://arxiv.org/abs/2512.14550v1)** - [Code](https://github.com/yaziwel/tat) (confidence: high)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](https://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/us-x-complete) (confidence: medium)
@@ -564,6 +567,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[VIHD: Visual Intervention-based Hallucination Detection for Medical Visual Question Answering](https://arxiv.org/abs/2605.20772v1)** - [Code](https://github.com/jiayi-chen-au/vihd) (confidence: high)
 * **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: high)
 * **[BrainAnytime: Anatomy-Aware Cross-Modal Pretraining for Brain Image Analysis with Arbitrary Modality Availability](https://arxiv.org/abs/2605.13059v1)** - [Code](https://github.com/sdh-lab/brainanytime) (confidence: medium)
 * **[Contrastive Learning under Noisy Temporal Self-Supervision for Colonoscopy Videos](https://arxiv.org/abs/2605.12320v2)** - [Code](https://github.com/lparolari/ntssl) (confidence: medium)
@@ -1327,6 +1331,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-05-20 10:51 UTC by GitHub Actions
+**Last Updated**: 2026-05-23 09:55 UTC by GitHub Actions
 
 **License**: Apache License 2.0
