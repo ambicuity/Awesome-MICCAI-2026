@@ -56,19 +56,19 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `800`
-- Fetched arXiv records: `3097`
-- Unique arXiv records: `2984`
+- Total code-backed papers: `801`
+- Fetched arXiv records: `3103`
+- Unique arXiv records: `2989`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2184`
+- Filtered (no code links): `2188`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 359 | 641 |
+| Segmentation | 360 | 640 |
 | Reconstruction | 115 | 885 |
 | Classification | 305 | 695 |
-| Image Registration | 97 | 903 |
+| Image Registration | 98 | 902 |
 | Domain Adaptation | 62 | 938 |
 | Generative Models | 172 | 828 |
 | General | 91 | 909 |
@@ -79,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Exploiting Longitudinal Context in Clinician-Verified Interactive Lesion Tracking](https://arxiv.org/abs/2605.23118v1)** - [Code](https://github.com/mic-dkfz/longiseg) (confidence: medium)
 * **[R2AoP: Reliable and Robust Angle of Progression Estimation from Intrapartum Ultrasound](https://arxiv.org/abs/2605.21099v1)** - [Code](https://github.com/baiyou1234/r2aop) (confidence: high)
 * **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: medium)
 * **[VoxShield: Protecting 3D Medical Datasets from Unauthorized Training via Frequency-Aware Inter-Slice Disruption](https://arxiv.org/abs/2605.17345v1)** - [Code](https://github.com/kk266299/voxshield) (confidence: medium)
@@ -879,6 +880,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[Exploiting Longitudinal Context in Clinician-Verified Interactive Lesion Tracking](https://arxiv.org/abs/2605.23118v1)** - [Code](https://github.com/mic-dkfz/longiseg) (confidence: medium)
 * **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: medium)
 * **[EchoTracker2: Enhancing Myocardial Point Tracking by Modeling Local Motion](https://arxiv.org/abs/2605.12140v1)** - [Code](https://github.com/riponazad/ptecho) (confidence: medium)
 * **[Unsupervised MR-US Multimodal Image Registration with Multilevel Correlation Pyramidal Optimization](https://arxiv.org/abs/2602.06288v2)** - [Code](https://github.com/wjiazheng/mcpo) (confidence: high)
@@ -1331,6 +1333,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-05-24 09:56 UTC by GitHub Actions
+**Last Updated**: 2026-05-25 11:54 UTC by GitHub Actions
 
 **License**: Apache License 2.0
