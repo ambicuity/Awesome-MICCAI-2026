@@ -57,11 +57,11 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Discovery mode: `broad`
 - Tracks: `all`
 - Total code-backed papers: `815`
-- Fetched arXiv records: `3133`
-- Unique arXiv records: `3019`
+- Fetched arXiv records: `3134`
+- Unique arXiv records: `3020`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2204`
+- Filtered (no code links): `2205`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
@@ -1357,6 +1357,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-06-09 11:17 UTC by GitHub Actions
+**Last Updated**: 2026-06-10 11:40 UTC by GitHub Actions
 
 **License**: Apache License 2.0
