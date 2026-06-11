@@ -56,12 +56,12 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `815`
-- Fetched arXiv records: `3134`
-- Unique arXiv records: `3020`
+- Total code-backed papers: `816`
+- Fetched arXiv records: `3136`
+- Unique arXiv records: `3022`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2205`
+- Filtered (no code links): `2206`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
@@ -71,7 +71,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 | Image Registration | 103 | 897 |
 | Domain Adaptation | 64 | 936 |
 | Generative Models | 174 | 826 |
-| General | 95 | 905 |
+| General | 96 | 904 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -1253,6 +1253,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERAL_PAPERS -->
+* **[AGE-MIL: Anchor-Guided Evidence Learning for Patient-Level Prediction](https://arxiv.org/abs/2606.12126v1)** - [Code](https://github.com/wodeniua/age-mil) (confidence: medium)
 * **[StrokeTimer: Robust Representation Learning for Ischemic Stroke Onset-Time Estimation from Non-contrast CT](https://arxiv.org/abs/2606.04722v1)** - [Code](https://github.com/brainvas/stroketimer) (confidence: medium)
 * **[BCER Agent: Reliable Long-Horizon MRI Workflow Execution via Compilation, Artifact Binding, and Bounded Local Recovery](https://arxiv.org/abs/2605.29163v1)** - [Code](https://github.com/albertlongzi/bcer) (confidence: medium)
 * **[BioFact-MoE: Biologically Factorized Mixture of Experts for Vision-Language Prognostic Modeling in Hepatocellular Carcinoma](https://arxiv.org/abs/2605.26376v1)** - [Code](https://github.com/jy-639/biofact-moe) (confidence: medium)
@@ -1357,6 +1358,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-06-10 11:40 UTC by GitHub Actions
+**Last Updated**: 2026-06-11 12:11 UTC by GitHub Actions
 
 **License**: Apache License 2.0
