@@ -56,9 +56,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `816`
-- Fetched arXiv records: `3136`
-- Unique arXiv records: `3022`
+- Total code-backed papers: `817`
+- Fetched arXiv records: `3137`
+- Unique arXiv records: `3023`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
 - Filtered (no code links): `2206`
@@ -67,7 +67,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 |---|---:|---:|
 | Segmentation | 365 | 635 |
 | Reconstruction | 117 | 883 |
-| Classification | 309 | 691 |
+| Classification | 310 | 690 |
 | Image Registration | 103 | 897 |
 | Domain Adaptation | 64 | 936 |
 | Generative Models | 174 | 826 |
@@ -585,6 +585,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Contrastive Learning under Noisy Temporal Self-Supervision for Colonoscopy Videos](https://arxiv.org/abs/2605.12320v2)** - [Code](https://github.com/lparolari/ntssl) (confidence: medium)
 * **[Wasserstein-Aligned Localisation for VLM-Based Distributional OOD Detection in Medical Imaging](https://arxiv.org/abs/2605.05161v1)** - [Code](https://github.com/bkainz/waldo_miccai26_demo) (confidence: high)
 * **[Exemplar Diffusion: Improving Medical Object Detection with Opportunistic Labels](https://arxiv.org/abs/2603.15267v1)** - [Code](https://github.com/waahlstrand/exemplardiffusion) (confidence: high)
+* **[Echo2ECG: Enhancing ECG Representations with Cardiac Morphology from Multi-View Echos](https://arxiv.org/abs/2603.08505v2)** - [Code](https://github.com/michelleespranita/echo2ecg) (confidence: medium)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](https://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/tomaskrsicka/medshapenet19-pspooling) (confidence: high)
 * **[MeisenMeister: A Simple Two Stage Pipeline for Breast Cancer Classification on MRI](https://arxiv.org/abs/2510.27326v1)** - [Code](https://github.com/mic-dkfz/meisenmeister) (confidence: high)
 * **[Adaptive Stain Normalization for Cross-Domain Medical Histology](https://arxiv.org/abs/2510.06592v1)** - [Code](https://github.com/xutianyue/beerlanet) (confidence: high)
@@ -1358,6 +1359,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-06-11 12:11 UTC by GitHub Actions
+**Last Updated**: 2026-06-12 11:44 UTC by GitHub Actions
 
 **License**: Apache License 2.0
