@@ -56,22 +56,22 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `823`
-- Fetched arXiv records: `3150`
-- Unique arXiv records: `3036`
+- Total code-backed papers: `825`
+- Fetched arXiv records: `3153`
+- Unique arXiv records: `3039`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2213`
+- Filtered (no code links): `2214`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 367 | 633 |
+| Segmentation | 368 | 632 |
 | Reconstruction | 119 | 881 |
 | Classification | 313 | 687 |
 | Image Registration | 104 | 896 |
 | Domain Adaptation | 64 | 936 |
 | Generative Models | 176 | 824 |
-| General | 96 | 904 |
+| General | 97 | 903 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -79,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Beyond Visual Cues: CoT-Enhanced Reasoning for Semi-supervised Medical Image Segmentation](https://arxiv.org/abs/2606.17958v1)** - [Code](https://github.com/cymasuna/cers) (confidence: high)
 * **[Attention-Based Prototype Calibration for Multi-Rater Few-Shot Medical Image Segmentation](https://arxiv.org/abs/2606.16325v1)** - [Code](https://github.com/truong2710-cyber/japc) (confidence: high)
 * **[Mutual Distillation of Dual-Foundation Models for Semi-Supervised PET/CT Segmentation](https://arxiv.org/abs/2606.15611v1)** - [Code](https://github.com/wu-beining/muduo) (confidence: high)
 * **[Attenuation-Resilient Alternating Optimization for Laparoscopic Liver Landmark Detection](https://arxiv.org/abs/2605.26630v1)** - [Code](https://github.com/hyperiondk115/a2onet) (confidence: medium)
@@ -1266,6 +1267,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 <!-- BEGIN GENERAL_PAPERS -->
 * **[AGE-MIL: Anchor-Guided Evidence Learning for Patient-Level Prediction](https://arxiv.org/abs/2606.12126v1)** - [Code](https://github.com/wodeniua/age-mil) (confidence: medium)
 * **[StrokeTimer: Robust Representation Learning for Ischemic Stroke Onset-Time Estimation from Non-contrast CT](https://arxiv.org/abs/2606.04722v1)** - [Code](https://github.com/brainvas/stroketimer) (confidence: medium)
+* **[Response-Aware Multimodal Learning for Post-Treatment Visual Acuity Forecasting](https://arxiv.org/abs/2606.00588v2)** - [Code](https://github.com/nguyenpbui/reva) (confidence: medium)
 * **[BCER Agent: Reliable Long-Horizon MRI Workflow Execution via Compilation, Artifact Binding, and Bounded Local Recovery](https://arxiv.org/abs/2605.29163v1)** - [Code](https://github.com/albertlongzi/bcer) (confidence: medium)
 * **[BioFact-MoE: Biologically Factorized Mixture of Experts for Vision-Language Prognostic Modeling in Hepatocellular Carcinoma](https://arxiv.org/abs/2605.26376v1)** - [Code](https://github.com/jy-639/biofact-moe) (confidence: medium)
 * **[SurgLQA: Scalable Long-Horizon Surgical Video Question Answering](https://arxiv.org/abs/2605.17915v1)** - [Code](https://github.com/rascalgdd/surglqa) (confidence: medium)
@@ -1369,6 +1371,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-06-16 12:55 UTC by GitHub Actions
+**Last Updated**: 2026-06-17 12:17 UTC by GitHub Actions
 
 **License**: Apache License 2.0
