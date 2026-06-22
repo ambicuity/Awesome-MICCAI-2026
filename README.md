@@ -1381,6 +1381,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-06-21 11:17 UTC by GitHub Actions
+**Last Updated**: 2026-06-22 13:36 UTC by GitHub Actions
 
 **License**: Apache License 2.0
