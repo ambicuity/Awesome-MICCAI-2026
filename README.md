@@ -56,9 +56,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `840`
-- Fetched arXiv records: `3180`
-- Unique arXiv records: `3066`
+- Total code-backed papers: `841`
+- Fetched arXiv records: `3181`
+- Unique arXiv records: `3067`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
 - Filtered (no code links): `2226`
@@ -66,12 +66,12 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 374 | 626 |
-| Reconstruction | 122 | 878 |
+| Reconstruction | 123 | 877 |
 | Classification | 322 | 678 |
-| Image Registration | 106 | 894 |
+| Image Registration | 107 | 893 |
 | Domain Adaptation | 65 | 935 |
-| Generative Models | 178 | 822 |
-| General | 98 | 902 |
+| Generative Models | 179 | 821 |
+| General | 97 | 903 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -460,6 +460,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
+* **[NeuroSonic: Conditional Flow Matching for EEG-to-Speech Reconstruction](https://arxiv.org/abs/2606.24087v1)** - [Code](https://github.com/y-research-sbu/neurosonic) (confidence: high)
 * **[MaRS: Robust Out-of-Distribution Detection via Mahalanobis Residual Scoring](https://arxiv.org/abs/2606.22649v1)** - [Code](https://github.com/francescodisalvo05/mars) (confidence: medium)
 * **[When, Where, and How: Adaptive Binning for Tabular Self-Supervised Learning](https://arxiv.org/abs/2606.19827v1)** - [Code](https://github.com/labhai/adaptive-binning) (confidence: medium)
 * **[Test-Time Adaptation in Optical Coherence Tomography Using Trajectory-Aligned Time-Independent Flow](https://arxiv.org/abs/2606.18876v1)** - [Code](https://github.com/veit21/tta-flow) (confidence: medium)
@@ -918,6 +919,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy](https://arxiv.org/abs/2606.23964v1)** - [Code](https://github.com/marrlab/mae3d-opencell) (confidence: medium)
 * **[MedTS-TTT: Test-Time Training for Medical Time Series Classification](https://arxiv.org/abs/2606.21329v1)** - [Code](https://github.com/mingzhi-c/medts-ttt) (confidence: medium)
 * **[OTCHA: Optimal Transport-driven Confidence-aware Latent Hub Alignment for Multi-View Medical Image Classification](https://arxiv.org/abs/2606.19838v1)** - [Code](https://github.com/labhai/otcha) (confidence: high)
 * **[Propagating Structural Guidance: Synthesizing Fluorescein Angiography from Fundus Images and Sparse OCT Scans](https://arxiv.org/abs/2606.16234v1)** - [Code](https://github.com/while-plus/oct-guide-ffa-syn) (confidence: medium)
@@ -1103,6 +1105,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[NeuroSonic: Conditional Flow Matching for EEG-to-Speech Reconstruction](https://arxiv.org/abs/2606.24087v1)** - [Code](https://github.com/y-research-sbu/neurosonic) (confidence: high)
 * **[MaRS: Robust Out-of-Distribution Detection via Mahalanobis Residual Scoring](https://arxiv.org/abs/2606.22649v1)** - [Code](https://github.com/francescodisalvo05/mars) (confidence: medium)
 * **[One-Shot Data Selection for Medical Image Classification via Graph Coverage](https://arxiv.org/abs/2606.22002v1)** - [Code](https://github.com/zahiriddin-rustamov/graph-coverage-selection) (confidence: medium)
 * **[Single-Stage Hierarchical Rectification for Weakly Supervised Histopathology Segmentation](https://arxiv.org/abs/2606.20250v1)** - [Code](https://github.com/trongduc-nguyen/sshr) (confidence: medium)
@@ -1290,7 +1293,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 <!-- BEGIN GENERAL_PAPERS -->
 * **[AGE-MIL: Anchor-Guided Evidence Learning for Patient-Level Prediction](https://arxiv.org/abs/2606.12126v1)** - [Code](https://github.com/wodeniua/age-mil) (confidence: medium)
 * **[StrokeTimer: Robust Representation Learning for Ischemic Stroke Onset-Time Estimation from Non-contrast CT](https://arxiv.org/abs/2606.04722v1)** - [Code](https://github.com/brainvas/stroketimer) (confidence: medium)
-* **[Response-Aware Multimodal Learning for Post-Treatment Visual Acuity Forecasting](https://arxiv.org/abs/2606.00588v2)** - [Code](https://github.com/nguyenpbui/reva) (confidence: medium)
 * **[BCER Agent: Reliable Long-Horizon MRI Workflow Execution via Compilation, Artifact Binding, and Bounded Local Recovery](https://arxiv.org/abs/2605.29163v1)** - [Code](https://github.com/albertlongzi/bcer) (confidence: medium)
 * **[BioFact-MoE: Biologically Factorized Mixture of Experts for Vision-Language Prognostic Modeling in Hepatocellular Carcinoma](https://arxiv.org/abs/2605.26376v1)** - [Code](https://github.com/jy-639/biofact-moe) (confidence: medium)
 * **[SurgLQA: Scalable Long-Horizon Surgical Video Question Answering](https://arxiv.org/abs/2605.17915v1)** - [Code](https://github.com/rascalgdd/surglqa) (confidence: medium)
@@ -1395,6 +1397,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-06-23 11:18 UTC by GitHub Actions
+**Last Updated**: 2026-06-24 10:51 UTC by GitHub Actions
 
 **License**: Apache License 2.0
