@@ -56,18 +56,18 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `858`
-- Fetched arXiv records: `3213`
-- Unique arXiv records: `3098`
+- Total code-backed papers: `859`
+- Fetched arXiv records: `3215`
+- Unique arXiv records: `3100`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2240`
+- Filtered (no code links): `2241`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 378 | 622 |
 | Reconstruction | 124 | 876 |
-| Classification | 329 | 671 |
+| Classification | 330 | 670 |
 | Image Registration | 110 | 890 |
 | Domain Adaptation | 65 | 935 |
 | Generative Models | 184 | 816 |
@@ -595,6 +595,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Boosting Ultrasound Image Classification via Attribute-Guided Dual-Branch Framework](https://arxiv.org/abs/2607.01648v1)** - [Code](https://github.com/zhaobo253-crypto/attrguide) (confidence: high)
 * **[FrameONE: Hierarchical Motion Modeling for Universal Multi-View Echocardiographic Keyframe Detection](https://arxiv.org/abs/2607.00748v1)** - [Code](https://github.com/szuboy/frameone) (confidence: high)
 * **[Self-Supervised Temporal Regularization for Landmark-Based Cardiac Segmentation with Automatic AHA Regional Mapping](https://arxiv.org/abs/2606.31785v1)** - [Code](https://github.com/david-montalvoo/maskhybridgnet-tempreg) (confidence: medium)
 * **[Learning Where to Look: A Reinforcement Learning Framework for Robust Micro-Ultrasound Prostate Cancer Detection](https://arxiv.org/abs/2606.30951v1)** - [Code](https://github.com/deeprcl/prost-rl) (confidence: high)
@@ -1421,6 +1422,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-02 10:42 UTC by GitHub Actions
+**Last Updated**: 2026-07-03 10:37 UTC by GitHub Actions
 
 **License**: Apache License 2.0
