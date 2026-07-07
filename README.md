@@ -56,20 +56,20 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `859`
-- Fetched arXiv records: `3215`
-- Unique arXiv records: `3100`
+- Total code-backed papers: `863`
+- Fetched arXiv records: `3220`
+- Unique arXiv records: `3105`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2241`
+- Filtered (no code links): `2242`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 378 | 622 |
-| Reconstruction | 124 | 876 |
-| Classification | 330 | 670 |
-| Image Registration | 110 | 890 |
-| Domain Adaptation | 65 | 935 |
+| Segmentation | 380 | 620 |
+| Reconstruction | 126 | 874 |
+| Classification | 331 | 669 |
+| Image Registration | 111 | 889 |
+| Domain Adaptation | 66 | 934 |
 | Generative Models | 184 | 816 |
 | General | 101 | 899 |
 <!-- END COVERAGE_REPORT -->
@@ -79,7 +79,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: medium)
 * **[Self-Supervised Temporal Regularization for Landmark-Based Cardiac Segmentation with Automatic AHA Regional Mapping](https://arxiv.org/abs/2606.31785v1)** - [Code](https://github.com/david-montalvoo/maskhybridgnet-tempreg) (confidence: high)
+* **[Dual-Adaptive SAM3: Hierarchical Routing over Low-Rank Expert Layers for Parameter-Efficient Medical Image Segmentation](https://arxiv.org/abs/2607.02571v1)** - [Code](https://github.com/reconsider80/da-sam3) (confidence: high)
 * **[Distilling Temporal Coherence into 2D Networks for Transrectal Ultrasound Prostate Video Segmentation](https://arxiv.org/abs/2606.31198v1)** - [Code](https://github.com/dydevelop/dtc-trus) (confidence: high)
 * **[Set-Inclusive Uncertainty Modeling for Robust Brain Tumor Segmentation](https://arxiv.org/abs/2606.30374v1)** - [Code](https://github.com/atlas-sky/sium) (confidence: high)
 * **[Controllable Histopathology Image Synthesis with Training-free Structural Initialization and Textural Modulation](https://arxiv.org/abs/2606.27935v2)** - [Code](https://github.com/ibil-code/chis) (confidence: high)
@@ -464,6 +466,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
+* **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: high)
 * **[Anatomy-Grounded Synthetic Coronary Angiography for Geometry-Informed Multi-View Matching](https://arxiv.org/abs/2606.28474v1)** - [Code](https://github.com/medipixel/gimm) (confidence: medium)
 * **[NeuroSonic: Conditional Flow Matching for EEG-to-Speech Reconstruction](https://arxiv.org/abs/2606.24087v1)** - [Code](https://github.com/y-research-sbu/neurosonic) (confidence: high)
 * **[MaRS: Robust Out-of-Distribution Detection via Mahalanobis Residual Scoring](https://arxiv.org/abs/2606.22649v2)** - [Code](https://github.com/francescodisalvo05/mars) (confidence: medium)
@@ -481,6 +484,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](https://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/mic-dkfz/nndetection-finetuning) (confidence: medium)
 * **[UltrON: Ultrasound Occupancy Networks](https://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron) (confidence: medium)
 * **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](https://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/xoct) (confidence: high)
+* **[Diverse Normal Prototypes-Guided Contrastive Reconstruction for Medical Anomaly Detection](https://arxiv.org/abs/2508.19573v2)** - [Code](https://github.com/liluhu0/dnp-conformer) (confidence: high)
 * **[Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction](https://arxiv.org/abs/2508.17389v1)** - [Code](https://github.com/bokai-zhao/npf) (confidence: high)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](https://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion) (confidence: medium)
 * **[Comparing Conditional Diffusion Models for Synthesizing Contrast-Enhanced Breast MRI from Pre-Contrast Images](https://arxiv.org/abs/2508.13776v2)** - [Code](https://github.com/sebastibar/conditional-diffusion-breast-mri) (confidence: medium)
@@ -643,6 +647,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Leveraging Generic Foundation Models for Multimodal Surgical Data Analysis](https://arxiv.org/abs/2509.06831v1)** - [Code](https://github.com/digitalsurgerylab-basel/ml-cds-2025) (confidence: medium)
 * **[PRECISE-AS: Personalized Reinforcement Learning for Efficient Point-of-Care Echocardiography in Aortic Stenosis Diagnosis](https://arxiv.org/abs/2509.02898v1)** - [Code](https://github.com/armin-saadat/precise-as) (confidence: high)
 * **[Ontology-Based Concept Distillation for Radiology Report Retrieval and Labeling](https://arxiv.org/abs/2508.19915v1)** - [Code](https://github.com/felix-012/ontology-concept-distillation) (confidence: high)
+* **[Diverse Normal Prototypes-Guided Contrastive Reconstruction for Medical Anomaly Detection](https://arxiv.org/abs/2508.19573v2)** - [Code](https://github.com/liluhu0/dnp-conformer) (confidence: high)
 * **[OccluNet: Spatio-Temporal Deep Learning for Occlusion Detection on DSA](https://arxiv.org/abs/2508.14286v1)** - [Code](https://github.com/anushka-kore/occlunet) (confidence: high)
 * **[MOC: Meta-Optimized Classifier for Few-Shot Whole Slide Image Classification](https://arxiv.org/abs/2508.09967v1)** - [Code](https://github.com/xmed-lab/moc) (confidence: high)
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](https://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/reflect) (confidence: medium)
@@ -954,6 +959,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](https://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/tenbatsu24/latentcampus) (confidence: high)
 * **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](https://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/sadvoxel/more-performant-and-scalable) (confidence: medium)
 * **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](https://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/tonichopp/simcrop) (confidence: medium)
+* **[Diverse Normal Prototypes-Guided Contrastive Reconstruction for Medical Anomaly Detection](https://arxiv.org/abs/2508.19573v2)** - [Code](https://github.com/liluhu0/dnp-conformer) (confidence: medium)
 * **[Gaussian Primitive Optimized Deformable Retinal Image Registration](https://arxiv.org/abs/2508.16852v1)** - [Code](https://github.com/xintian-99/gporeg) (confidence: high)
 * **[Deep Biomechanically-Guided Interpolation for Keypoint-Based Brain Shift Registration](https://arxiv.org/abs/2508.13762v1)** - [Code](https://github.com/tiago-assis/deep-biomechanical-interpolator) (confidence: high)
 * **[Conditional Fetal Brain Atlas Learning for Automatic Tissue Segmentation](https://arxiv.org/abs/2508.04522v1)** - [Code](https://github.com/cirmuw/fetal-brain-atlas) (confidence: medium)
@@ -1049,6 +1055,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN DOMAIN_ADAPTATION_PAPERS -->
+* **[ContiStain: Cross-Domain Relation-Preserving Distillation for Continual Multi-Domain Virtual IHC Staining](https://arxiv.org/abs/2607.03851v1)** - [Code](https://github.com/ccitachi/contistain) (confidence: high)
 * **[MedTS-TTT: Test-Time Training for Medical Time Series Classification](https://arxiv.org/abs/2606.21329v1)** - [Code](https://github.com/mingzhi-c/medts-ttt) (confidence: medium)
 * **[Evi-Steer: Learning to Steer Biomedical Vision-Language Models through Efficient and Generalizable Evidential Tuning](https://arxiv.org/abs/2605.26292v2)** - [Code](https://github.com/healthx-lab/evi-steer) (confidence: high)
 * **[Anatomy-Anchored Self-Supervision: Distilling Vision Foundation Models for Invariant Ultrasound Representation](https://arxiv.org/abs/2605.25402v3)** - [Code](https://github.com/zhcz328/anaus) (confidence: medium)
@@ -1422,6 +1429,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-06 12:06 UTC by GitHub Actions
+**Last Updated**: 2026-07-07 10:57 UTC by GitHub Actions
 
 **License**: Apache License 2.0
