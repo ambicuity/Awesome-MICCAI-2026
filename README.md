@@ -56,19 +56,19 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `863`
-- Fetched arXiv records: `3220`
-- Unique arXiv records: `3105`
+- Total code-backed papers: `864`
+- Fetched arXiv records: `3224`
+- Unique arXiv records: `3109`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2242`
+- Filtered (no code links): `2245`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 380 | 620 |
 | Reconstruction | 126 | 874 |
 | Classification | 331 | 669 |
-| Image Registration | 111 | 889 |
+| Image Registration | 112 | 888 |
 | Domain Adaptation | 66 | 934 |
 | Generative Models | 184 | 816 |
 | General | 101 | 899 |
@@ -937,6 +937,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[KOAL: Knowledge-Driven Prostate Cancer Grading with Ordinal-Aware Learning](https://arxiv.org/abs/2607.06019v1)** - [Code](https://github.com/gother-gz/koal) (confidence: medium)
 * **[Distilling Temporal Coherence into 2D Networks for Transrectal Ultrasound Prostate Video Segmentation](https://arxiv.org/abs/2606.31198v1)** - [Code](https://github.com/dydevelop/dtc-trus) (confidence: medium)
 * **[MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching](https://arxiv.org/abs/2606.28537v1)** - [Code](https://github.com/xypb/mammoflow) (confidence: medium)
 * **[3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy](https://arxiv.org/abs/2606.23964v1)** - [Code](https://github.com/marrlab/mae3d-opencell) (confidence: medium)
@@ -1429,6 +1430,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-07 10:57 UTC by GitHub Actions
+**Last Updated**: 2026-07-08 10:19 UTC by GitHub Actions
 
 **License**: Apache License 2.0
