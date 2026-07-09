@@ -56,9 +56,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `864`
-- Fetched arXiv records: `3224`
-- Unique arXiv records: `3109`
+- Total code-backed papers: `865`
+- Fetched arXiv records: `3225`
+- Unique arXiv records: `3110`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
 - Filtered (no code links): `2245`
@@ -67,7 +67,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 |---|---:|---:|
 | Segmentation | 380 | 620 |
 | Reconstruction | 126 | 874 |
-| Classification | 331 | 669 |
+| Classification | 332 | 668 |
 | Image Registration | 112 | 888 |
 | Domain Adaptation | 66 | 934 |
 | Generative Models | 184 | 816 |
@@ -599,6 +599,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Compass: Prostate Cancer Detection Needs Multi-View Context](https://arxiv.org/abs/2607.06919v1)** - [Code](https://github.com/mharmanani/compass) (confidence: high)
 * **[Boosting Ultrasound Image Classification via Attribute-Guided Dual-Branch Framework](https://arxiv.org/abs/2607.01648v1)** - [Code](https://github.com/zhaobo253-crypto/attrguide) (confidence: high)
 * **[FrameONE: Hierarchical Motion Modeling for Universal Multi-View Echocardiographic Keyframe Detection](https://arxiv.org/abs/2607.00748v1)** - [Code](https://github.com/szuboy/frameone) (confidence: high)
 * **[Self-Supervised Temporal Regularization for Landmark-Based Cardiac Segmentation with Automatic AHA Regional Mapping](https://arxiv.org/abs/2606.31785v1)** - [Code](https://github.com/david-montalvoo/maskhybridgnet-tempreg) (confidence: medium)
@@ -1346,7 +1347,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[FIND-Net -- Fourier-Integrated Network with Dictionary Kernels for Metal Artifact Reduction](https://arxiv.org/abs/2508.10617v1)** - [Code](https://github.com/farid-tasharofi/find-net) (confidence: medium)
 * **[From Explainable to Explained AI: Ideas for Falsifying and Quantifying Explanations](https://arxiv.org/abs/2508.09205v2)** - [Code](https://github.com/nki-ai/x2x) (confidence: medium)
 * **[Analysis of Image-and-Text Uncertainty Propagation in Multimodal Large Language Models with Cardiac MR-Based Applications](https://arxiv.org/abs/2507.12945v1)** - [Code](https://github.com/yucheng722/mupm) (confidence: medium)
-* **[Trexplorer Super: Topologically Correct Centerline Tree Tracking of Tubular Objects in CT Volumes](https://arxiv.org/abs/2507.10881v1)** - [Code](https://github.com/romstriker/trexplorer-super) (confidence: medium)
+* **[Trexplorer Super: Topologically Correct Centerline Tree Tracking of Tubular Objects in CT Volumes](https://arxiv.org/abs/2507.10881v2)** - [Code](https://github.com/romstriker/trexplorer-super) (confidence: medium)
 * **[Temporally-Aware Supervised Contrastive Learning for Polyp Counting in Colonoscopy](https://arxiv.org/abs/2507.02493v1)** - [Code](https://github.com/lparolari/temporally-aware-polyp-counting) (confidence: medium)
 * **[Accurate and Efficient Fetal Birth Weight Estimation from 3D Ultrasound](https://arxiv.org/abs/2507.00398v1)** - [Code](https://github.com/qioy-i/efw) (confidence: medium)
 * **[Spatially Gene Expression Prediction using Dual-Scale Contrastive Learning](https://arxiv.org/abs/2506.23827v1)** - [Code](https://github.com/mcpathology/nh2st) (confidence: medium)
@@ -1430,6 +1431,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-08 10:19 UTC by GitHub Actions
+**Last Updated**: 2026-07-09 10:55 UTC by GitHub Actions
 
 **License**: Apache License 2.0
