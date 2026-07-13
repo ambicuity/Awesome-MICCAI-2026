@@ -56,19 +56,19 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `865`
+- Total code-backed papers: `864`
 - Fetched arXiv records: `3228`
 - Unique arXiv records: `3113`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2248`
+- Filtered (no code links): `2249`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 380 | 620 |
 | Reconstruction | 126 | 874 |
 | Classification | 332 | 668 |
-| Image Registration | 112 | 888 |
+| Image Registration | 111 | 889 |
 | Domain Adaptation | 66 | 934 |
 | Generative Models | 184 | 816 |
 | General | 101 | 899 |
@@ -941,7 +941,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[KOAL: Knowledge-Driven Prostate Cancer Grading with Ordinal-Aware Learning](https://arxiv.org/abs/2607.06019v1)** - [Code](https://github.com/gother-gz/koal) (confidence: medium)
 * **[Distilling Temporal Coherence into 2D Networks for Transrectal Ultrasound Prostate Video Segmentation](https://arxiv.org/abs/2606.31198v1)** - [Code](https://github.com/dydevelop/dtc-trus) (confidence: medium)
 * **[MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching](https://arxiv.org/abs/2606.28537v1)** - [Code](https://github.com/xypb/mammoflow) (confidence: medium)
-* **[3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy](https://arxiv.org/abs/2606.23964v1)** - [Code](https://github.com/marrlab/mae3d-opencell) (confidence: medium)
 * **[MedTS-TTT: Test-Time Training for Medical Time Series Classification](https://arxiv.org/abs/2606.21329v1)** - [Code](https://github.com/mingzhi-c/medts-ttt) (confidence: medium)
 * **[OTCHA: Optimal Transport-driven Confidence-aware Latent Hub Alignment for Multi-View Medical Image Classification](https://arxiv.org/abs/2606.19838v1)** - [Code](https://github.com/labhai/otcha) (confidence: high)
 * **[Propagating Structural Guidance: Synthesizing Fluorescein Angiography from Fundus Images and Sparse OCT Scans](https://arxiv.org/abs/2606.16234v1)** - [Code](https://github.com/while-plus/oct-guide-ffa-syn) (confidence: medium)
@@ -1431,6 +1430,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-12 09:52 UTC by GitHub Actions
+**Last Updated**: 2026-07-13 11:12 UTC by GitHub Actions
 
 **License**: Apache License 2.0
