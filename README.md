@@ -56,9 +56,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `864`
-- Fetched arXiv records: `3228`
-- Unique arXiv records: `3113`
+- Total code-backed papers: `867`
+- Fetched arXiv records: `3231`
+- Unique arXiv records: `3116`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
 - Filtered (no code links): `2249`
@@ -66,11 +66,11 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 380 | 620 |
-| Reconstruction | 126 | 874 |
-| Classification | 332 | 668 |
-| Image Registration | 111 | 889 |
+| Reconstruction | 128 | 872 |
+| Classification | 333 | 667 |
+| Image Registration | 113 | 887 |
 | Domain Adaptation | 66 | 934 |
-| Generative Models | 184 | 816 |
+| Generative Models | 185 | 815 |
 | General | 101 | 899 |
 <!-- END COVERAGE_REPORT -->
 
@@ -466,6 +466,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
+* **[MUX-USCT: A Noise-Robust Neural Network for Ultrasound Computed Tomography](https://arxiv.org/abs/2607.10648v1)** - [Code](https://github.com/theyuchen/mux-usct-miccai2026) (confidence: medium)
 * **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: high)
 * **[Anatomy-Grounded Synthetic Coronary Angiography for Geometry-Informed Multi-View Matching](https://arxiv.org/abs/2606.28474v1)** - [Code](https://github.com/medipixel/gimm) (confidence: medium)
 * **[NeuroSonic: Conditional Flow Matching for EEG-to-Speech Reconstruction](https://arxiv.org/abs/2606.24087v1)** - [Code](https://github.com/y-research-sbu/neurosonic) (confidence: high)
@@ -477,6 +478,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Anatomy-Anchored Self-Supervision: Distilling Vision Foundation Models for Invariant Ultrasound Representation](https://arxiv.org/abs/2605.25402v3)** - [Code](https://github.com/zhcz328/anaus) (confidence: medium)
 * **[ImPartial: Multi-channel Whole-Cell Segmentation using Partial Annotations](https://arxiv.org/abs/2605.24128v1)** - [Code](https://github.com/nadeemlab/impartial) (confidence: high)
 * **[Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model](https://arxiv.org/abs/2604.19512v2)** - [Code](https://github.com/sextant-fable/us-metrics) (confidence: medium)
+* **[VecHeart: Holistic Four-Chamber Cardiac Anatomy Modeling via Hybrid VecSets](https://arxiv.org/abs/2604.19403v2)** - [Code](https://github.com/scalsol/vecheart) (confidence: medium)
 * **[EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis](https://arxiv.org/abs/2603.13967v1)** - [Code](https://github.com/engemmanuel/echolvfm) (confidence: medium)
 * **[TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration](https://arxiv.org/abs/2512.14550v1)** - [Code](https://github.com/yaziwel/tat) (confidence: high)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](https://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/us-x-complete) (confidence: medium)
@@ -599,6 +601,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Longitudinal Multi-View Breast Cancer Risk Prediction](https://arxiv.org/abs/2607.11343v1)** - [Code](https://github.com/sot176/lmv-net) (confidence: medium)
 * **[Compass: Prostate Cancer Detection Needs Multi-View Context](https://arxiv.org/abs/2607.06919v1)** - [Code](https://github.com/mharmanani/compass) (confidence: high)
 * **[Boosting Ultrasound Image Classification via Attribute-Guided Dual-Branch Framework](https://arxiv.org/abs/2607.01648v1)** - [Code](https://github.com/zhaobo253-crypto/attrguide) (confidence: high)
 * **[FrameONE: Hierarchical Motion Modeling for Universal Multi-View Echocardiographic Keyframe Detection](https://arxiv.org/abs/2607.00748v1)** - [Code](https://github.com/szuboy/frameone) (confidence: high)
@@ -938,6 +941,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[Longitudinal Multi-View Breast Cancer Risk Prediction](https://arxiv.org/abs/2607.11343v1)** - [Code](https://github.com/sot176/lmv-net) (confidence: medium)
 * **[KOAL: Knowledge-Driven Prostate Cancer Grading with Ordinal-Aware Learning](https://arxiv.org/abs/2607.06019v1)** - [Code](https://github.com/gother-gz/koal) (confidence: medium)
 * **[Distilling Temporal Coherence into 2D Networks for Transrectal Ultrasound Prostate Video Segmentation](https://arxiv.org/abs/2606.31198v1)** - [Code](https://github.com/dydevelop/dtc-trus) (confidence: medium)
 * **[MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching](https://arxiv.org/abs/2606.28537v1)** - [Code](https://github.com/xypb/mammoflow) (confidence: medium)
@@ -952,6 +956,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Exploiting Longitudinal Context in Clinician-Verified Interactive Lesion Tracking](https://arxiv.org/abs/2605.23118v1)** - [Code](https://github.com/mic-dkfz/longiseg) (confidence: medium)
 * **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: medium)
 * **[EchoTracker2: Enhancing Myocardial Point Tracking by Modeling Local Motion](https://arxiv.org/abs/2605.12140v1)** - [Code](https://github.com/riponazad/ptecho) (confidence: medium)
+* **[VecHeart: Holistic Four-Chamber Cardiac Anatomy Modeling via Hybrid VecSets](https://arxiv.org/abs/2604.19403v2)** - [Code](https://github.com/scalsol/vecheart) (confidence: medium)
 * **[Unsupervised MR-US Multimodal Image Registration with Multilevel Correlation Pyramidal Optimization](https://arxiv.org/abs/2602.06288v2)** - [Code](https://github.com/wjiazheng/mcpo) (confidence: high)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](https://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/sts-challenge-2025) (confidence: high)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](https://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/us-x-complete) (confidence: medium)
@@ -1142,6 +1147,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis](https://arxiv.org/abs/2606.08670v1)** - [Code](https://github.com/sisinflab/wavedit) (confidence: high)
 * **[BrainAnytime: Anatomy-Aware Cross-Modal Pretraining for Brain Image Analysis with Arbitrary Modality Availability](https://arxiv.org/abs/2605.13059v1)** - [Code](https://github.com/sdh-lab/brainanytime) (confidence: medium)
 * **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v2)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
+* **[VecHeart: Holistic Four-Chamber Cardiac Anatomy Modeling via Hybrid VecSets](https://arxiv.org/abs/2604.19403v2)** - [Code](https://github.com/scalsol/vecheart) (confidence: medium)
 * **[Exemplar Diffusion: Improving Medical Object Detection with Opportunistic Labels](https://arxiv.org/abs/2603.15267v1)** - [Code](https://github.com/waahlstrand/exemplardiffusion) (confidence: high)
 * **[EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis](https://arxiv.org/abs/2603.13967v1)** - [Code](https://github.com/engemmanuel/echolvfm) (confidence: high)
 * **[DUCX: Decomposing Unfairness in Tool-Using Chest X-ray Agents](https://arxiv.org/abs/2603.00777v2)** - [Code](https://github.com/nanboy-ronan/duck) (confidence: medium)
@@ -1430,6 +1436,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-13 11:12 UTC by GitHub Actions
+**Last Updated**: 2026-07-14 09:59 UTC by GitHub Actions
 
 **License**: Apache License 2.0
