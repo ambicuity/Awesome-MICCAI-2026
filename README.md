@@ -79,7 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
-* **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v1)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
+* **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)](https://arxiv.org/abs/2607.12939v1)** - [Code](https://github.com/athaddius/stirmetrics) (confidence: medium)
 * **[Decouple and Reason: Anatomically Guided Two-Stage Voxel-Level Grounding of Free-Text Findings in 3D Chest CT](https://arxiv.org/abs/2607.12602v1)** - [Code](https://github.com/khuhm/dagg) (confidence: medium)
 * **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: medium)
@@ -469,7 +469,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
-* **[DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology](https://arxiv.org/abs/2607.13010v1)** - [Code](https://github.com/hectorcarrion/dermdepth) (confidence: high)
+* **[DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology](https://arxiv.org/abs/2607.13010v2)** - [Code](https://github.com/hectorcarrion/dermdepth) (confidence: high)
 * **[Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)](https://arxiv.org/abs/2607.12939v1)** - [Code](https://github.com/athaddius/stirmetrics) (confidence: medium)
 * **[MUX-USCT: A Noise-Robust Neural Network for Ultrasound Computed Tomography](https://arxiv.org/abs/2607.10648v1)** - [Code](https://github.com/theyuchen/mux-usct-miccai2026) (confidence: medium)
 * **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: high)
@@ -606,7 +606,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
-* **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v1)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
+* **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Decouple and Reason: Anatomically Guided Two-Stage Voxel-Level Grounding of Free-Text Findings in 3D Chest CT](https://arxiv.org/abs/2607.12602v1)** - [Code](https://github.com/khuhm/dagg) (confidence: medium)
 * **[Longitudinal Multi-View Breast Cancer Risk Prediction](https://arxiv.org/abs/2607.11343v1)** - [Code](https://github.com/sot176/lmv-net) (confidence: medium)
 * **[Compass: Prostate Cancer Detection Needs Multi-View Context](https://arxiv.org/abs/2607.06919v1)** - [Code](https://github.com/mharmanani/compass) (confidence: high)
@@ -1142,7 +1142,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
-* **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v1)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
+* **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Synergistic Perception-Reasoning Governance: Grounding Medical MLLMs with Verifiable Anatomical Evidence](https://arxiv.org/abs/2607.00060v1)** - [Code](https://github.com/henry991115/sprg) (confidence: medium)
 * **[MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching](https://arxiv.org/abs/2606.28537v1)** - [Code](https://github.com/xypb/mammoflow) (confidence: high)
 * **[Anatomy-Grounded Synthetic Coronary Angiography for Geometry-Informed Multi-View Matching](https://arxiv.org/abs/2606.28474v1)** - [Code](https://github.com/medipixel/gimm) (confidence: medium)
@@ -1445,6 +1445,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-15 10:04 UTC by GitHub Actions
+**Last Updated**: 2026-07-16 10:10 UTC by GitHub Actions
 
 **License**: Apache License 2.0
