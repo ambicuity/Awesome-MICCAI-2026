@@ -56,17 +56,17 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `871`
-- Fetched arXiv records: `3240`
-- Unique arXiv records: `3125`
+- Total code-backed papers: `872`
+- Fetched arXiv records: `3242`
+- Unique arXiv records: `3127`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2254`
+- Filtered (no code links): `2255`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 383 | 617 |
-| Reconstruction | 130 | 870 |
+| Reconstruction | 131 | 869 |
 | Classification | 335 | 665 |
 | Image Registration | 114 | 886 |
 | Domain Adaptation | 66 | 934 |
@@ -473,6 +473,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)](https://arxiv.org/abs/2607.12939v1)** - [Code](https://github.com/athaddius/stirmetrics) (confidence: medium)
 * **[MUX-USCT: A Noise-Robust Neural Network for Ultrasound Computed Tomography](https://arxiv.org/abs/2607.10648v1)** - [Code](https://github.com/theyuchen/mux-usct-miccai2026) (confidence: medium)
 * **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: high)
+* **[AdaSurvMamba: Dynamic Fusion and Semantic Scanning for Multimodal Survival Analysis](https://arxiv.org/abs/2607.16260v1)** - [Code](https://github.com/zjlgo/adasurvmamba) (confidence: high)
 * **[Anatomy-Grounded Synthetic Coronary Angiography for Geometry-Informed Multi-View Matching](https://arxiv.org/abs/2606.28474v1)** - [Code](https://github.com/medipixel/gimm) (confidence: medium)
 * **[NeuroSonic: Conditional Flow Matching for EEG-to-Speech Reconstruction](https://arxiv.org/abs/2606.24087v1)** - [Code](https://github.com/y-research-sbu/neurosonic) (confidence: high)
 * **[MaRS: Robust Out-of-Distribution Detection via Mahalanobis Residual Scoring](https://arxiv.org/abs/2606.22649v2)** - [Code](https://github.com/francescodisalvo05/mars) (confidence: medium)
@@ -1445,6 +1446,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-20 10:53 UTC by GitHub Actions
+**Last Updated**: 2026-07-21 10:26 UTC by GitHub Actions
 
 **License**: Apache License 2.0
