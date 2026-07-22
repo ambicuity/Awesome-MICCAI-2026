@@ -56,16 +56,16 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `872`
-- Fetched arXiv records: `3242`
-- Unique arXiv records: `3127`
+- Total code-backed papers: `873`
+- Fetched arXiv records: `3243`
+- Unique arXiv records: `3128`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
 - Filtered (no code links): `2255`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 383 | 617 |
+| Segmentation | 384 | 616 |
 | Reconstruction | 131 | 869 |
 | Classification | 335 | 665 |
 | Image Registration | 114 | 886 |
@@ -79,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[PC-Seg: Progressive Cross-View Consistency for 3D OCT Segmentation from Sparse 2D Annotations](https://arxiv.org/abs/2607.17718v2)** - [Code](https://github.com/gsisaoki/pc-seg-official) (confidence: high)
 * **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)](https://arxiv.org/abs/2607.12939v1)** - [Code](https://github.com/athaddius/stirmetrics) (confidence: medium)
 * **[Decouple and Reason: Anatomically Guided Two-Stage Voxel-Level Grounding of Free-Text Findings in 3D Chest CT](https://arxiv.org/abs/2607.12602v1)** - [Code](https://github.com/khuhm/dagg) (confidence: medium)
@@ -1446,6 +1447,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-21 10:26 UTC by GitHub Actions
+**Last Updated**: 2026-07-22 10:26 UTC by GitHub Actions
 
 **License**: Apache License 2.0
