@@ -56,19 +56,19 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `873`
-- Fetched arXiv records: `3243`
-- Unique arXiv records: `3128`
+- Total code-backed papers: `874`
+- Fetched arXiv records: `3246`
+- Unique arXiv records: `3131`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2255`
+- Filtered (no code links): `2257`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 384 | 616 |
 | Reconstruction | 131 | 869 |
 | Classification | 335 | 665 |
-| Image Registration | 114 | 886 |
+| Image Registration | 115 | 885 |
 | Domain Adaptation | 66 | 934 |
 | Generative Models | 186 | 814 |
 | General | 101 | 899 |
@@ -950,6 +950,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[Deep Shape Regression for Planar Curves with Multimodal Covariates](https://arxiv.org/abs/2607.19600v1)** - [Code](https://github.com/mpff/dnn-shapes) (confidence: medium)
 * **[Decouple and Reason: Anatomically Guided Two-Stage Voxel-Level Grounding of Free-Text Findings in 3D Chest CT](https://arxiv.org/abs/2607.12602v1)** - [Code](https://github.com/khuhm/dagg) (confidence: medium)
 * **[Longitudinal Multi-View Breast Cancer Risk Prediction](https://arxiv.org/abs/2607.11343v1)** - [Code](https://github.com/sot176/lmv-net) (confidence: medium)
 * **[KOAL: Knowledge-Driven Prostate Cancer Grading with Ordinal-Aware Learning](https://arxiv.org/abs/2607.06019v1)** - [Code](https://github.com/gother-gz/koal) (confidence: medium)
@@ -1447,6 +1448,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-22 10:26 UTC by GitHub Actions
+**Last Updated**: 2026-07-23 10:24 UTC by GitHub Actions
 
 **License**: Apache License 2.0
