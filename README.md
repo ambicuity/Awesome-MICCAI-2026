@@ -56,12 +56,12 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `874`
-- Fetched arXiv records: `3247`
-- Unique arXiv records: `3132`
+- Total code-backed papers: `875`
+- Fetched arXiv records: `3251`
+- Unique arXiv records: `3136`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2258`
+- Filtered (no code links): `2261`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
@@ -71,7 +71,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 | Image Registration | 115 | 885 |
 | Domain Adaptation | 66 | 934 |
 | Generative Models | 186 | 814 |
-| General | 101 | 899 |
+| General | 102 | 898 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -1341,6 +1341,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Foundation Model-driven Key Anatomy Frame Selection for Blind-sweep Ultrasound Fetal Birth Weight Estimation](https://arxiv.org/abs/2607.00745v1)** - [Code](https://github.com/ouleoule/blindsweep-ebw) (confidence: medium)
 * **[ENC-ODE: Event-level Neurodegenerative Modeling in Continuous Time with Neural ODEs](https://arxiv.org/abs/2606.30398v1)** - [Code](https://github.com/jardindelsol/enc-ode) (confidence: medium)
 * **[Re-mixing Embeddings for Patient Augmentation in Data Scarce Multiple Instance Learning](https://arxiv.org/abs/2606.25770v1)** - [Code](https://github.com/marrlab/recipe) (confidence: medium)
+* **[Enhancing Pathological VLMs with Cross-scale Reasoning](https://arxiv.org/abs/2606.17412v4)** - [Code](https://github.com/imvr-pl/scalereasoner-r1) (confidence: medium)
 * **[AGE-MIL: Anchor-Guided Evidence Learning for Patient-Level Prediction](https://arxiv.org/abs/2606.12126v1)** - [Code](https://github.com/wodeniua/age-mil) (confidence: medium)
 * **[StrokeTimer: Robust Representation Learning for Ischemic Stroke Onset-Time Estimation from Non-contrast CT](https://arxiv.org/abs/2606.04722v1)** - [Code](https://github.com/brainvas/stroketimer) (confidence: medium)
 * **[BCER Agent: Reliable Long-Horizon MRI Workflow Execution via Compilation, Artifact Binding, and Bounded Local Recovery](https://arxiv.org/abs/2605.29163v1)** - [Code](https://github.com/albertlongzi/bcer) (confidence: medium)
@@ -1448,6 +1449,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-27 11:22 UTC by GitHub Actions
+**Last Updated**: 2026-07-28 10:36 UTC by GitHub Actions
 
 **License**: Apache License 2.0
