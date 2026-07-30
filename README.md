@@ -57,11 +57,11 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Discovery mode: `broad`
 - Tracks: `all`
 - Total code-backed papers: `875`
-- Fetched arXiv records: `3252`
-- Unique arXiv records: `3137`
+- Fetched arXiv records: `3253`
+- Unique arXiv records: `3138`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2262`
+- Filtered (no code links): `2263`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
@@ -1348,7 +1348,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[BioFact-MoE: Biologically Factorized Mixture of Experts for Vision-Language Prognostic Modeling in Hepatocellular Carcinoma](https://arxiv.org/abs/2605.26376v1)** - [Code](https://github.com/jy-639/biofact-moe) (confidence: medium)
 * **[SurgLQA: Scalable Long-Horizon Surgical Video Question Answering](https://arxiv.org/abs/2605.17915v1)** - [Code](https://github.com/rascalgdd/surglqa) (confidence: medium)
 * **[Network-Aware Bilinear Tokenization for Brain Functional Connectivity Representation Learning](https://arxiv.org/abs/2605.14048v3)** - [Code](https://github.com/leomlck/nerve) (confidence: medium)
-* **[Clinical Graph-Mediated Distillation for Unpaired MRI-to-CFI Hypertension Prediction](https://arxiv.org/abs/2603.21809v1)** - [Code](https://github.com/dillanimans/cgmd-unpaired-distillation) (confidence: medium)
+* **[Clinical Graph-Mediated Distillation for Unpaired MRI-to-CFI Hypertension Prediction](https://arxiv.org/abs/2603.21809v2)** - [Code](https://github.com/dillanimans/cgmd-unpaired-distillation) (confidence: medium)
 * **[FusionNet: a frame interpolation network for 4D heart models](https://arxiv.org/abs/2603.10212v1)** - [Code](https://github.com/smiyauchi199/fusionnet) (confidence: medium)
 * **[UltraStar: Semantic-Aware Star Graph Modeling for Echocardiography Navigation](https://arxiv.org/abs/2603.01461v2)** - [Code](https://github.com/leaplabthu/ultrastar) (confidence: medium)
 * **[Can Agents Distinguish Visually Hard-to-Separate Diseases in a Zero-Shot Setting? A Pilot Study](https://arxiv.org/abs/2602.22959v2)** - [Code](https://github.com/truhnlab/contrastive-agent-reasoning) (confidence: medium)
@@ -1449,6 +1449,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-07-29 10:40 UTC by GitHub Actions
+**Last Updated**: 2026-07-30 10:25 UTC by GitHub Actions
 
 **License**: Apache License 2.0
