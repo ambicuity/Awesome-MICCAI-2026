@@ -56,22 +56,22 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `875`
-- Fetched arXiv records: `3258`
-- Unique arXiv records: `3143`
+- Total code-backed papers: `879`
+- Fetched arXiv records: `3267`
+- Unique arXiv records: `3152`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2268`
+- Filtered (no code links): `2273`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 384 | 616 |
+| Segmentation | 386 | 614 |
 | Reconstruction | 131 | 869 |
-| Classification | 335 | 665 |
+| Classification | 336 | 664 |
 | Image Registration | 115 | 885 |
 | Domain Adaptation | 66 | 934 |
 | Generative Models | 186 | 814 |
-| General | 102 | 898 |
+| General | 104 | 896 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -79,6 +79,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Test-time Adaptation of Pelvic Bone Segmentation Models via Dynamic Reliability-Guided](https://arxiv.org/abs/2608.00510v1)** - [Code](https://github.com/ren-ling/rega) (confidence: high)
+* **[Automatic LV Localization and Short-Axis Plane Estimation from Arbitrary CMR Slice](https://arxiv.org/abs/2608.00145v1)** - [Code](https://github.com/yuyi1005/cmr-3d-ood) (confidence: medium)
 * **[PC-Seg: Progressive Cross-View Consistency for 3D OCT Segmentation from Sparse 2D Annotations](https://arxiv.org/abs/2607.17718v2)** - [Code](https://github.com/gsisaoki/pc-seg-official) (confidence: high)
 * **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)](https://arxiv.org/abs/2607.12939v1)** - [Code](https://github.com/athaddius/stirmetrics) (confidence: medium)
@@ -608,6 +610,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Automatic LV Localization and Short-Axis Plane Estimation from Arbitrary CMR Slice](https://arxiv.org/abs/2608.00145v1)** - [Code](https://github.com/yuyi1005/cmr-3d-ood) (confidence: high)
 * **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Decouple and Reason: Anatomically Guided Two-Stage Voxel-Level Grounding of Free-Text Findings in 3D Chest CT](https://arxiv.org/abs/2607.12602v1)** - [Code](https://github.com/khuhm/dagg) (confidence: medium)
 * **[Longitudinal Multi-View Breast Cancer Risk Prediction](https://arxiv.org/abs/2607.11343v1)** - [Code](https://github.com/sot176/lmv-net) (confidence: medium)
@@ -1338,6 +1341,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERAL_PAPERS -->
+* **[tFUSOperator: Operator Learning for Transcranial Focused Ultrasound Digital Twins](https://arxiv.org/abs/2608.01839v1)** - [Code](https://github.com/cmme-lab/tfusoperator) (confidence: medium)
+* **[Harnessing Adversarial Distillation to Customise Debiased, Disease-Specific Pathology Foundation Models for Breast Cancer](https://arxiv.org/abs/2608.01356v1)** - [Code](https://github.com/zwchen03/advdistall) (confidence: medium)
 * **[Foundation Model-driven Key Anatomy Frame Selection for Blind-sweep Ultrasound Fetal Birth Weight Estimation](https://arxiv.org/abs/2607.00745v1)** - [Code](https://github.com/ouleoule/blindsweep-ebw) (confidence: medium)
 * **[ENC-ODE: Event-level Neurodegenerative Modeling in Continuous Time with Neural ODEs](https://arxiv.org/abs/2606.30398v1)** - [Code](https://github.com/jardindelsol/enc-ode) (confidence: medium)
 * **[Re-mixing Embeddings for Patient Augmentation in Data Scarce Multiple Instance Learning](https://arxiv.org/abs/2606.25770v1)** - [Code](https://github.com/marrlab/recipe) (confidence: medium)
@@ -1449,6 +1454,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-03 11:24 UTC by GitHub Actions
+**Last Updated**: 2026-08-04 10:40 UTC by GitHub Actions
 
 **License**: Apache License 2.0
