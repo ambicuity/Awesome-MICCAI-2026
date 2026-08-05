@@ -56,22 +56,22 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `879`
-- Fetched arXiv records: `3267`
-- Unique arXiv records: `3152`
+- Total code-backed papers: `883`
+- Fetched arXiv records: `3274`
+- Unique arXiv records: `3159`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2273`
+- Filtered (no code links): `2276`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 386 | 614 |
 | Reconstruction | 131 | 869 |
-| Classification | 336 | 664 |
-| Image Registration | 115 | 885 |
+| Classification | 337 | 663 |
+| Image Registration | 117 | 883 |
 | Domain Adaptation | 66 | 934 |
-| Generative Models | 186 | 814 |
-| General | 104 | 896 |
+| Generative Models | 187 | 813 |
+| General | 105 | 895 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -610,6 +610,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Clinically-Grounded Hierarchical Classification for Consistent Chest X-ray Interpretation](https://arxiv.org/abs/2608.03016v1)** - [Code](https://github.com/yejix-ai/chase) (confidence: high)
 * **[Automatic LV Localization and Short-Axis Plane Estimation from Arbitrary CMR Slice](https://arxiv.org/abs/2608.00145v1)** - [Code](https://github.com/yuyi1005/cmr-3d-ood) (confidence: high)
 * **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Decouple and Reason: Anatomically Guided Two-Stage Voxel-Level Grounding of Free-Text Findings in 3D Chest CT](https://arxiv.org/abs/2607.12602v1)** - [Code](https://github.com/khuhm/dagg) (confidence: medium)
@@ -953,6 +954,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[CIGTSurv: Clinical Information Guided Tri-modal Survival Prediction with Local Prototype Association and Global Feature Alignment](https://arxiv.org/abs/2608.03247v1)** - [Code](https://github.com/daijing-ai/cigt-surv) (confidence: high)
+* **[Clinically-Grounded Hierarchical Classification for Consistent Chest X-ray Interpretation](https://arxiv.org/abs/2608.03016v1)** - [Code](https://github.com/yejix-ai/chase) (confidence: medium)
 * **[Deep Shape Regression for Planar Curves with Multimodal Covariates](https://arxiv.org/abs/2607.19600v1)** - [Code](https://github.com/mpff/dnn-shapes) (confidence: medium)
 * **[Decouple and Reason: Anatomically Guided Two-Stage Voxel-Level Grounding of Free-Text Findings in 3D Chest CT](https://arxiv.org/abs/2607.12602v1)** - [Code](https://github.com/khuhm/dagg) (confidence: medium)
 * **[Longitudinal Multi-View Breast Cancer Risk Prediction](https://arxiv.org/abs/2607.11343v1)** - [Code](https://github.com/sot176/lmv-net) (confidence: medium)
@@ -1148,6 +1151,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[Predictive Enhancement Calibration for Latent Breast MRI Virtual Contrast Enhancement](https://arxiv.org/abs/2608.03612v1)** - [Code](https://github.com/tanlei0/pec-breast-mri-vce) (confidence: medium)
 * **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Synergistic Perception-Reasoning Governance: Grounding Medical MLLMs with Verifiable Anatomical Evidence](https://arxiv.org/abs/2607.00060v1)** - [Code](https://github.com/henry991115/sprg) (confidence: medium)
 * **[MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching](https://arxiv.org/abs/2606.28537v1)** - [Code](https://github.com/xypb/mammoflow) (confidence: high)
@@ -1341,6 +1345,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERAL_PAPERS -->
+* **[Automatic Patient-Specific Microwave Ablation Planning Accelerated by a Physics-Guided Deep Learning Model](https://arxiv.org/abs/2608.03086v1)** - [Code](https://github.com/seonaengcho/mwa-planning) (confidence: medium)
 * **[tFUSOperator: Operator Learning for Transcranial Focused Ultrasound Digital Twins](https://arxiv.org/abs/2608.01839v1)** - [Code](https://github.com/cmme-lab/tfusoperator) (confidence: medium)
 * **[Harnessing Adversarial Distillation to Customise Debiased, Disease-Specific Pathology Foundation Models for Breast Cancer](https://arxiv.org/abs/2608.01356v1)** - [Code](https://github.com/zwchen03/advdistall) (confidence: medium)
 * **[Foundation Model-driven Key Anatomy Frame Selection for Blind-sweep Ultrasound Fetal Birth Weight Estimation](https://arxiv.org/abs/2607.00745v1)** - [Code](https://github.com/ouleoule/blindsweep-ebw) (confidence: medium)
@@ -1454,6 +1459,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-04 10:40 UTC by GitHub Actions
+**Last Updated**: 2026-08-05 10:36 UTC by GitHub Actions
 
 **License**: Apache License 2.0
