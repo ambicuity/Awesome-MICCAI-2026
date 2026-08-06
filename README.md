@@ -56,17 +56,17 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `883`
-- Fetched arXiv records: `3274`
-- Unique arXiv records: `3159`
+- Total code-backed papers: `884`
+- Fetched arXiv records: `3276`
+- Unique arXiv records: `3161`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2276`
+- Filtered (no code links): `2277`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 386 | 614 |
-| Reconstruction | 131 | 869 |
+| Reconstruction | 132 | 868 |
 | Classification | 337 | 663 |
 | Image Registration | 117 | 883 |
 | Domain Adaptation | 66 | 934 |
@@ -475,6 +475,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology](https://arxiv.org/abs/2607.13010v2)** - [Code](https://github.com/hectorcarrion/dermdepth) (confidence: high)
 * **[Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)](https://arxiv.org/abs/2607.12939v1)** - [Code](https://github.com/athaddius/stirmetrics) (confidence: medium)
 * **[MUX-USCT: A Noise-Robust Neural Network for Ultrasound Computed Tomography](https://arxiv.org/abs/2607.10648v1)** - [Code](https://github.com/theyuchen/mux-usct-miccai2026) (confidence: medium)
+* **[Cardiac MRI Through-Plane Super-Resolution Guided by Reference and Memory](https://arxiv.org/abs/2607.07581v2)** - [Code](https://github.com/030108ming/strmsr) (confidence: high)
 * **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: high)
 * **[AdaSurvMamba: Dynamic Fusion and Semantic Scanning for Multimodal Survival Analysis](https://arxiv.org/abs/2607.16260v1)** - [Code](https://github.com/zjlgo/adasurvmamba) (confidence: high)
 * **[Anatomy-Grounded Synthetic Coronary Angiography for Geometry-Informed Multi-View Matching](https://arxiv.org/abs/2606.28474v1)** - [Code](https://github.com/medipixel/gimm) (confidence: medium)
@@ -1459,6 +1460,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-05 10:36 UTC by GitHub Actions
+**Last Updated**: 2026-08-06 10:40 UTC by GitHub Actions
 
 **License**: Apache License 2.0
