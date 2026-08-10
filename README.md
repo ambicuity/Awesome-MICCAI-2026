@@ -56,9 +56,9 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `884`
-- Fetched arXiv records: `3278`
-- Unique arXiv records: `3163`
+- Total code-backed papers: `885`
+- Fetched arXiv records: `3279`
+- Unique arXiv records: `3164`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
 - Filtered (no code links): `2279`
@@ -70,7 +70,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 | Classification | 337 | 663 |
 | Image Registration | 117 | 883 |
 | Domain Adaptation | 66 | 934 |
-| Generative Models | 187 | 813 |
+| Generative Models | 188 | 812 |
 | General | 105 | 895 |
 <!-- END COVERAGE_REPORT -->
 
@@ -1152,6 +1152,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[Spatial Masked-Set Learning for Sparse Multi-Shell Diffusion MRI Signal Synthesis](https://arxiv.org/abs/2608.06958v1)** - [Code](https://github.com/xmindflow/shorepred) (confidence: high)
 * **[Predictive Enhancement Calibration for Latent Breast MRI Virtual Contrast Enhancement](https://arxiv.org/abs/2608.03612v1)** - [Code](https://github.com/tanlei0/pec-breast-mri-vce) (confidence: medium)
 * **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
 * **[Synergistic Perception-Reasoning Governance: Grounding Medical MLLMs with Verifiable Anatomical Evidence](https://arxiv.org/abs/2607.00060v1)** - [Code](https://github.com/henry991115/sprg) (confidence: medium)
@@ -1460,6 +1461,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-09 08:44 UTC by GitHub Actions
+**Last Updated**: 2026-08-10 09:22 UTC by GitHub Actions
 
 **License**: Apache License 2.0
