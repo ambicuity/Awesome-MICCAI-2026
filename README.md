@@ -56,22 +56,22 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `887`
-- Fetched arXiv records: `3290`
-- Unique arXiv records: `3175`
+- Total code-backed papers: `897`
+- Fetched arXiv records: `3306`
+- Unique arXiv records: `3191`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2288`
+- Filtered (no code links): `2294`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 386 | 614 |
+| Segmentation | 392 | 608 |
 | Reconstruction | 132 | 868 |
-| Classification | 337 | 663 |
-| Image Registration | 117 | 883 |
+| Classification | 338 | 662 |
+| Image Registration | 118 | 882 |
 | Domain Adaptation | 67 | 933 |
-| Generative Models | 189 | 811 |
-| General | 106 | 894 |
+| Generative Models | 194 | 806 |
+| General | 108 | 892 |
 <!-- END COVERAGE_REPORT -->
 
 ## 📊 Segmentation
@@ -79,6 +79,12 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[CoDiR: Confidence-Guided Diffusion Refinement for Semi-Supervised Histopathology Segmentation](https://arxiv.org/abs/2608.11807v1)** - [Code](https://github.com/vongla345/codir) (confidence: high)
+* **[ProBAG: Prototype-Guided Boundary-Aware Graph Diffusion for Weakly Supervised Histopathology Segmentation](https://arxiv.org/abs/2608.11765v1)** - [Code](https://github.com/wterrr/wsss) (confidence: high)
+* **[KANResDiff: Learning Local Residual Diffusion via Kolmogorov-Arnold Network for Ambiguous Medical Image Segmentation](https://arxiv.org/abs/2608.11617v1)** - [Code](https://github.com/perceptioncomputinglab/kanresdiff) (confidence: high)
+* **[Dual-Domain Cross-Modal Decoding for Clinical Text-Guided Medical Image Segmentation](https://arxiv.org/abs/2608.11335v1)** - [Code](https://github.com/maklachur/dd-cmd) (confidence: high)
+* **[Modelling Geographic Atrophy Progression using Implicit Neural Representations](https://arxiv.org/abs/2608.10807v1)** - [Code](https://github.com/simonesarrocco/ga-progression-with-inrs) (confidence: medium)
+* **[MRIComp4Flow: Compression of 3D Brain MRI for Training Multi-Modal Generative Models](https://arxiv.org/abs/2608.10291v1)** - [Code](https://github.com/lisafis/mricomp4flow) (confidence: medium)
 * **[Test-time Adaptation of Pelvic Bone Segmentation Models via Dynamic Reliability-Guided](https://arxiv.org/abs/2608.00510v1)** - [Code](https://github.com/ren-ling/rega) (confidence: high)
 * **[Automatic LV Localization and Short-Axis Plane Estimation from Arbitrary CMR Slice](https://arxiv.org/abs/2608.00145v1)** - [Code](https://github.com/yuyi1005/cmr-3d-ood) (confidence: medium)
 * **[PC-Seg: Progressive Cross-View Consistency for 3D OCT Segmentation from Sparse 2D Annotations](https://arxiv.org/abs/2607.17718v2)** - [Code](https://github.com/gsisaoki/pc-seg-official) (confidence: high)
@@ -105,7 +111,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Anatomy-Anchored Self-Supervision: Distilling Vision Foundation Models for Invariant Ultrasound Representation](https://arxiv.org/abs/2605.25402v3)** - [Code](https://github.com/zhcz328/anaus) (confidence: medium)
 * **[ImPartial: Multi-channel Whole-Cell Segmentation using Partial Annotations](https://arxiv.org/abs/2605.24128v1)** - [Code](https://github.com/nadeemlab/impartial) (confidence: high)
 * **[Exploiting Longitudinal Context in Clinician-Verified Interactive Lesion Tracking](https://arxiv.org/abs/2605.23118v1)** - [Code](https://github.com/mic-dkfz/longiseg) (confidence: medium)
-* **[R2AoP: Reliable and Robust Angle of Progression Estimation from Intrapartum Ultrasound](https://arxiv.org/abs/2605.21099v1)** - [Code](https://github.com/baiyou1234/r2aop) (confidence: high)
+* **[R2AoP: Reliable and Robust Angle of Progression Estimation from Intrapartum Ultrasound](https://arxiv.org/abs/2605.21099v2)** - [Code](https://github.com/baiyou1234/r2aop) (confidence: high)
 * **[Concept-Guided Noisy Negative Suppression for Zero-Shot Classification and Grounding of Chest X-Ray Findings](https://arxiv.org/abs/2605.19374v1)** - [Code](https://github.com/dopaminelcy/conns) (confidence: medium)
 * **[VoxShield: Protecting 3D Medical Datasets from Unauthorized Training via Frequency-Aware Inter-Slice Disruption](https://arxiv.org/abs/2605.17345v1)** - [Code](https://github.com/kk266299/voxshield) (confidence: medium)
 * **[TriALS: Triphasic-Aided Liver Lesion Segmentation Benchmark in Non-Contrast CT](https://arxiv.org/abs/2605.16572v1)** - [Code](https://github.com/xmed-lab/trials) (confidence: high)
@@ -475,7 +481,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology](https://arxiv.org/abs/2607.13010v2)** - [Code](https://github.com/hectorcarrion/dermdepth) (confidence: high)
 * **[Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)](https://arxiv.org/abs/2607.12939v1)** - [Code](https://github.com/athaddius/stirmetrics) (confidence: medium)
 * **[MUX-USCT: A Noise-Robust Neural Network for Ultrasound Computed Tomography](https://arxiv.org/abs/2607.10648v1)** - [Code](https://github.com/theyuchen/mux-usct-miccai2026) (confidence: medium)
-* **[Cardiac MRI Through-Plane Super-Resolution Guided by Reference and Memory](https://arxiv.org/abs/2607.07581v2)** - [Code](https://github.com/030108ming/strmsr) (confidence: high)
+* **[Cardiac MRI Through-Plane Super-Resolution Guided by Reference and Memory](https://arxiv.org/abs/2607.07581v3)** - [Code](https://github.com/030108ming/strmsr) (confidence: high)
 * **[Probe-EM: Targeted Neuron Tracing via Training-Free Semantic Verification](https://arxiv.org/abs/2607.04696v1)** - [Code](https://github.com/headliuyun/probe-em) (confidence: high)
 * **[AdaSurvMamba: Dynamic Fusion and Semantic Scanning for Multimodal Survival Analysis](https://arxiv.org/abs/2607.16260v1)** - [Code](https://github.com/zjlgo/adasurvmamba) (confidence: high)
 * **[Anatomy-Grounded Synthetic Coronary Angiography for Geometry-Informed Multi-View Matching](https://arxiv.org/abs/2606.28474v1)** - [Code](https://github.com/medipixel/gimm) (confidence: medium)
@@ -611,6 +617,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Look What the Probes Dragged In! Real-World Chest X-ray Shortcuts in MedCLIP](https://arxiv.org/abs/2608.12086v1)** - [Code](https://github.com/nikodice4/medclip_shortcuts) (confidence: medium)
 * **[Clinically-Grounded Hierarchical Classification for Consistent Chest X-ray Interpretation](https://arxiv.org/abs/2608.03016v1)** - [Code](https://github.com/yejix-ai/chase) (confidence: high)
 * **[Automatic LV Localization and Short-Axis Plane Estimation from Arbitrary CMR Slice](https://arxiv.org/abs/2608.00145v1)** - [Code](https://github.com/yuyi1005/cmr-3d-ood) (confidence: high)
 * **[Controllable Generation of Diverse Dermatological Imagery for Fair and Efficient Malignancy Classification](https://arxiv.org/abs/2607.12987v2)** - [Code](https://github.com/hectorcarrion/controllablegenddi) (confidence: high)
@@ -955,6 +962,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[Dual-Domain Cross-Modal Decoding for Clinical Text-Guided Medical Image Segmentation](https://arxiv.org/abs/2608.11335v1)** - [Code](https://github.com/maklachur/dd-cmd) (confidence: medium)
 * **[CIGTSurv: Clinical Information Guided Tri-modal Survival Prediction with Local Prototype Association and Global Feature Alignment](https://arxiv.org/abs/2608.03247v1)** - [Code](https://github.com/daijing-ai/cigt-surv) (confidence: high)
 * **[Clinically-Grounded Hierarchical Classification for Consistent Chest X-ray Interpretation](https://arxiv.org/abs/2608.03016v1)** - [Code](https://github.com/yejix-ai/chase) (confidence: medium)
 * **[Deep Shape Regression for Planar Curves with Multimodal Covariates](https://arxiv.org/abs/2607.19600v1)** - [Code](https://github.com/mpff/dnn-shapes) (confidence: medium)
@@ -1153,6 +1161,11 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[CoDiR: Confidence-Guided Diffusion Refinement for Semi-Supervised Histopathology Segmentation](https://arxiv.org/abs/2608.11807v1)** - [Code](https://github.com/vongla345/codir) (confidence: high)
+* **[ProBAG: Prototype-Guided Boundary-Aware Graph Diffusion for Weakly Supervised Histopathology Segmentation](https://arxiv.org/abs/2608.11765v1)** - [Code](https://github.com/wterrr/wsss) (confidence: high)
+* **[KANResDiff: Learning Local Residual Diffusion via Kolmogorov-Arnold Network for Ambiguous Medical Image Segmentation](https://arxiv.org/abs/2608.11617v1)** - [Code](https://github.com/perceptioncomputinglab/kanresdiff) (confidence: high)
+* **[CARE: Confidence-Aware Reasoning for Reliable Medical VQA](https://arxiv.org/abs/2608.10964v1)** - [Code](https://github.com/anotherbricki/care) (confidence: medium)
+* **[MRIComp4Flow: Compression of 3D Brain MRI for Training Multi-Modal Generative Models](https://arxiv.org/abs/2608.10291v1)** - [Code](https://github.com/lisafis/mricomp4flow) (confidence: high)
 * **[Task-Adaptive 3D Cross-Field MRI Translation via Field-Conditioned Content-Style Pretraining](https://arxiv.org/abs/2608.09264v1)** - [Code](https://github.com/idea89560041/3d-mri-field-translation) (confidence: high)
 * **[Spatial Masked-Set Learning for Sparse Multi-Shell Diffusion MRI Signal Synthesis](https://arxiv.org/abs/2608.06958v1)** - [Code](https://github.com/xmindflow/shorepred) (confidence: high)
 * **[Predictive Enhancement Calibration for Latent Breast MRI Virtual Contrast Enhancement](https://arxiv.org/abs/2608.03612v1)** - [Code](https://github.com/tanlei0/pec-breast-mri-vce) (confidence: medium)
@@ -1349,6 +1362,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERAL_PAPERS -->
+* **[Physics-Informed Implicit Neural Representations for Improved Myocardial Perfusion MRI Quantification](https://arxiv.org/abs/2608.11282v1)** - [Code](https://github.com/q-cardia/pinn-inr) (confidence: medium)
+* **[Longitudinal 3D Foundation Modeling for Neoadjuvant Breast Cancer Response Prediction from Serial DCE-MRI](https://arxiv.org/abs/2608.09991v1)** - [Code](https://github.com/omarftt/longitudinal_temporal_pillar) (confidence: medium)
 * **[Automatic Patient-Specific Microwave Ablation Planning Accelerated by a Physics-Guided Deep Learning Model](https://arxiv.org/abs/2608.03086v1)** - [Code](https://github.com/seonaengcho/mwa-planning) (confidence: medium)
 * **[tFUSOperator: Operator Learning for Transcranial Focused Ultrasound Digital Twins](https://arxiv.org/abs/2608.01839v1)** - [Code](https://github.com/cmme-lab/tfusoperator) (confidence: medium)
 * **[Harnessing Adversarial Distillation to Customise Debiased, Disease-Specific Pathology Foundation Models for Breast Cancer](https://arxiv.org/abs/2608.01356v1)** - [Code](https://github.com/zwchen03/advdistall) (confidence: medium)
@@ -1464,6 +1479,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-11 08:57 UTC by GitHub Actions
+**Last Updated**: 2026-08-13 09:13 UTC by GitHub Actions
 
 **License**: Apache License 2.0
