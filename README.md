@@ -56,19 +56,19 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `897`
-- Fetched arXiv records: `3306`
-- Unique arXiv records: `3191`
+- Total code-backed papers: `899`
+- Fetched arXiv records: `3313`
+- Unique arXiv records: `3198`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2294`
+- Filtered (no code links): `2299`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 392 | 608 |
+| Segmentation | 393 | 607 |
 | Reconstruction | 132 | 868 |
-| Classification | 338 | 662 |
-| Image Registration | 118 | 882 |
+| Classification | 340 | 660 |
+| Image Registration | 119 | 881 |
 | Domain Adaptation | 67 | 933 |
 | Generative Models | 194 | 806 |
 | General | 108 | 892 |
@@ -79,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Reliability analysis for BraTS-GoAT segmentation: a controlled robustness study of deep-ensemble uncertainty](https://arxiv.org/abs/2608.13223v1)** - [Code](https://github.com/riyashet-hds/brats-goat-reliability) (confidence: high)
 * **[CoDiR: Confidence-Guided Diffusion Refinement for Semi-Supervised Histopathology Segmentation](https://arxiv.org/abs/2608.11807v1)** - [Code](https://github.com/vongla345/codir) (confidence: high)
 * **[ProBAG: Prototype-Guided Boundary-Aware Graph Diffusion for Weakly Supervised Histopathology Segmentation](https://arxiv.org/abs/2608.11765v1)** - [Code](https://github.com/wterrr/wsss) (confidence: high)
 * **[KANResDiff: Learning Local Residual Diffusion via Kolmogorov-Arnold Network for Ambiguous Medical Image Segmentation](https://arxiv.org/abs/2608.11617v1)** - [Code](https://github.com/perceptioncomputinglab/kanresdiff) (confidence: high)
@@ -617,6 +618,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?](https://arxiv.org/abs/2608.13309v1)** - [Code](https://github.com/wafaalghallabi/time-aware-mri) (confidence: medium)
+* **[Reliability analysis for BraTS-GoAT segmentation: a controlled robustness study of deep-ensemble uncertainty](https://arxiv.org/abs/2608.13223v1)** - [Code](https://github.com/riyashet-hds/brats-goat-reliability) (confidence: medium)
 * **[Look What the Probes Dragged In! Real-World Chest X-ray Shortcuts in MedCLIP](https://arxiv.org/abs/2608.12086v1)** - [Code](https://github.com/nikodice4/medclip_shortcuts) (confidence: medium)
 * **[Clinically-Grounded Hierarchical Classification for Consistent Chest X-ray Interpretation](https://arxiv.org/abs/2608.03016v1)** - [Code](https://github.com/yejix-ai/chase) (confidence: high)
 * **[Automatic LV Localization and Short-Axis Plane Estimation from Arbitrary CMR Slice](https://arxiv.org/abs/2608.00145v1)** - [Code](https://github.com/yuyi1005/cmr-3d-ood) (confidence: high)
@@ -962,6 +965,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?](https://arxiv.org/abs/2608.13309v1)** - [Code](https://github.com/wafaalghallabi/time-aware-mri) (confidence: medium)
 * **[Dual-Domain Cross-Modal Decoding for Clinical Text-Guided Medical Image Segmentation](https://arxiv.org/abs/2608.11335v1)** - [Code](https://github.com/maklachur/dd-cmd) (confidence: medium)
 * **[CIGTSurv: Clinical Information Guided Tri-modal Survival Prediction with Local Prototype Association and Global Feature Alignment](https://arxiv.org/abs/2608.03247v1)** - [Code](https://github.com/daijing-ai/cigt-surv) (confidence: high)
 * **[Clinically-Grounded Hierarchical Classification for Consistent Chest X-ray Interpretation](https://arxiv.org/abs/2608.03016v1)** - [Code](https://github.com/yejix-ai/chase) (confidence: medium)
@@ -1479,6 +1483,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-13 09:13 UTC by GitHub Actions
+**Last Updated**: 2026-08-14 09:07 UTC by GitHub Actions
 
 **License**: Apache License 2.0
