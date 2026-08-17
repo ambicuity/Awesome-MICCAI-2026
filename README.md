@@ -56,18 +56,18 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `899`
-- Fetched arXiv records: `3313`
-- Unique arXiv records: `3198`
+- Total code-backed papers: `900`
+- Fetched arXiv records: `3317`
+- Unique arXiv records: `3202`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2299`
+- Filtered (no code links): `2302`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
 | Segmentation | 393 | 607 |
 | Reconstruction | 132 | 868 |
-| Classification | 340 | 660 |
+| Classification | 341 | 659 |
 | Image Registration | 119 | 881 |
 | Domain Adaptation | 67 | 933 |
 | Generative Models | 194 | 806 |
@@ -618,6 +618,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[TRUE-Colon: Exposing a Consistent Transfer Asymmetry in Real-Time Polyp Detection](https://arxiv.org/abs/2608.13711v1)** - [Code](https://github.com/sdoerrich97/true-colon) (confidence: high)
 * **[How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?](https://arxiv.org/abs/2608.13309v1)** - [Code](https://github.com/wafaalghallabi/time-aware-mri) (confidence: medium)
 * **[Reliability analysis for BraTS-GoAT segmentation: a controlled robustness study of deep-ensemble uncertainty](https://arxiv.org/abs/2608.13223v1)** - [Code](https://github.com/riyashet-hds/brats-goat-reliability) (confidence: medium)
 * **[Look What the Probes Dragged In! Real-World Chest X-ray Shortcuts in MedCLIP](https://arxiv.org/abs/2608.12086v1)** - [Code](https://github.com/nikodice4/medclip_shortcuts) (confidence: medium)
@@ -1483,6 +1484,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-16 08:29 UTC by GitHub Actions
+**Last Updated**: 2026-08-17 08:44 UTC by GitHub Actions
 
 **License**: Apache License 2.0
