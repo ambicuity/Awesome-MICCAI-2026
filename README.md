@@ -56,18 +56,18 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 - Conference scope: `miccai-all-years`
 - Discovery mode: `broad`
 - Tracks: `all`
-- Total code-backed papers: `900`
-- Fetched arXiv records: `3317`
-- Unique arXiv records: `3202`
+- Total code-backed papers: `902`
+- Fetched arXiv records: `3327`
+- Unique arXiv records: `3212`
 - Filtered (non-target): `0`
 - Filtered (track): `0`
-- Filtered (no code links): `2302`
+- Filtered (no code links): `2310`
 
 | Category | Count | Gap to 1000 |
 |---|---:|---:|
-| Segmentation | 393 | 607 |
+| Segmentation | 394 | 606 |
 | Reconstruction | 132 | 868 |
-| Classification | 341 | 659 |
+| Classification | 342 | 658 |
 | Image Registration | 119 | 881 |
 | Domain Adaptation | 67 | 933 |
 | Generative Models | 194 | 806 |
@@ -120,6 +120,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[XTinyU-Net: Training-Free U-Net Scaling via Initialization-Time Sensitivity](https://arxiv.org/abs/2605.09639v2)** - [Code](https://github.com/alvinkimbowa/nntinyunet) (confidence: medium)
 * **[Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model](https://arxiv.org/abs/2604.19512v2)** - [Code](https://github.com/sextant-fable/us-metrics) (confidence: medium)
 * **[DUCX: Decomposing Unfairness in Tool-Using Chest X-ray Agents](https://arxiv.org/abs/2603.00777v2)** - [Code](https://github.com/nanboy-ronan/duck) (confidence: medium)
+* **[VesselBridge3D: A Foundation Model Adaptation Framework for Label-Efficient 3D Vessel Segmentation](https://arxiv.org/abs/2602.23782v2)** - [Code](https://github.com/pfnet-research/vesselbridge3d) (confidence: high)
 * **[Glance and Focus Reinforcement for Pan-cancer Screening](https://arxiv.org/abs/2601.19103v2)** - [Code](https://github.com/luffy03/gf-screen) (confidence: high)
 * **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](https://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/ssl-medsam2) (confidence: high)
 * **[The MICCAI Federated Tumor Segmentation (FeTS) Challenge 2024: Efficient and Robust Aggregation Methods for Federated Learning](https://arxiv.org/abs/2512.06206v1)** - [Code](https://github.com/fets-ai/challenge) (confidence: high)
@@ -618,6 +619,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Test-Time Instance Selection for Improved Whole Slide Image Analysis](https://arxiv.org/abs/2608.14759v1)** - [Code](https://github.com/quiil/ttis) (confidence: high)
 * **[TRUE-Colon: Exposing a Consistent Transfer Asymmetry in Real-Time Polyp Detection](https://arxiv.org/abs/2608.13711v1)** - [Code](https://github.com/sdoerrich97/true-colon) (confidence: high)
 * **[How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?](https://arxiv.org/abs/2608.13309v1)** - [Code](https://github.com/wafaalghallabi/time-aware-mri) (confidence: medium)
 * **[Reliability analysis for BraTS-GoAT segmentation: a controlled robustness study of deep-ensemble uncertainty](https://arxiv.org/abs/2608.13223v1)** - [Code](https://github.com/riyashet-hds/brats-goat-reliability) (confidence: medium)
@@ -979,7 +981,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[MedTS-TTT: Test-Time Training for Medical Time Series Classification](https://arxiv.org/abs/2606.21329v1)** - [Code](https://github.com/mingzhi-c/medts-ttt) (confidence: medium)
 * **[OTCHA: Optimal Transport-driven Confidence-aware Latent Hub Alignment for Multi-View Medical Image Classification](https://arxiv.org/abs/2606.19838v1)** - [Code](https://github.com/labhai/otcha) (confidence: high)
 * **[Propagating Structural Guidance: Synthesizing Fluorescein Angiography from Fundus Images and Sparse OCT Scans](https://arxiv.org/abs/2606.16234v1)** - [Code](https://github.com/while-plus/oct-guide-ffa-syn) (confidence: medium)
-* **[WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis](https://arxiv.org/abs/2606.08670v1)** - [Code](https://github.com/sisinflab/wavedit) (confidence: medium)
+* **[WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis](https://arxiv.org/abs/2606.08670v2)** - [Code](https://github.com/sisinflab/wavedit) (confidence: medium)
 * **[Genetically Aligned Patient Representations Improve Hematological Diagnosis](https://arxiv.org/abs/2605.29980v1)** - [Code](https://github.com/marrlab/genbloom) (confidence: medium)
 * **[Evi-Steer: Learning to Steer Biomedical Vision-Language Models through Efficient and Generalizable Evidential Tuning](https://arxiv.org/abs/2605.26292v2)** - [Code](https://github.com/healthx-lab/evi-steer) (confidence: medium)
 * **[Anatomy-Anchored Self-Supervision: Distilling Vision Foundation Models for Invariant Ultrasound Representation](https://arxiv.org/abs/2605.25402v3)** - [Code](https://github.com/zhcz328/anaus) (confidence: medium)
@@ -1185,7 +1187,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Single-Stage Hierarchical Rectification for Weakly Supervised Histopathology Segmentation](https://arxiv.org/abs/2606.20250v1)** - [Code](https://github.com/trongduc-nguyen/sshr) (confidence: medium)
 * **[A Multi-Center Benchmark for Abdominal Disease Diagnosis and Report Generation from Non-Contrast CT](https://arxiv.org/abs/2606.16991v1)** - [Code](https://github.com/xmed-lab/trials-report) (confidence: high)
 * **[Propagating Structural Guidance: Synthesizing Fluorescein Angiography from Fundus Images and Sparse OCT Scans](https://arxiv.org/abs/2606.16234v1)** - [Code](https://github.com/while-plus/oct-guide-ffa-syn) (confidence: medium)
-* **[WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis](https://arxiv.org/abs/2606.08670v1)** - [Code](https://github.com/sisinflab/wavedit) (confidence: high)
+* **[WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis](https://arxiv.org/abs/2606.08670v2)** - [Code](https://github.com/sisinflab/wavedit) (confidence: high)
 * **[BrainAnytime: Anatomy-Aware Cross-Modal Pretraining for Brain Image Analysis with Arbitrary Modality Availability](https://arxiv.org/abs/2605.13059v1)** - [Code](https://github.com/sdh-lab/brainanytime) (confidence: medium)
 * **[ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555v2)** - [Code](https://github.com/icherishxixixi/scribbledose) (confidence: medium)
 * **[VecHeart: Holistic Four-Chamber Cardiac Anatomy Modeling via Hybrid VecSets](https://arxiv.org/abs/2604.19403v2)** - [Code](https://github.com/scalsol/vecheart) (confidence: medium)
@@ -1484,6 +1486,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 **Conference Scope**: miccai-all-years
 **Discovery Mode**: broad
 
-**Last Updated**: 2026-08-17 08:44 UTC by GitHub Actions
+**Last Updated**: 2026-08-18 08:37 UTC by GitHub Actions
 
 **License**: Apache License 2.0
