@@ -1,0 +1,41 @@
+# External source adapters used by the discovery pipeline.
+#
+# Each adapter has a stable identifier, network policies (timeout, retry,
+# rate limit), and a flag that says whether it is enabled by default.
+# To add a new source: add an entry here, then implement the adapter under
+# src/miccai_index/sources/. The CLI and CI will pick it up automatically.
+
+sources:
+  - id: arxiv
+    label: "arXiv API"
+    enabled: true
+    base_url: "http://export.arxiv.org/api/query"
+    network:
+      timeout_seconds: 30
+      max_retries: 3
+      backoff_factor: 2
+      rate_limit_per_minute: 30
+    pagination:
+      page_size: 100
+      max_results_per_query: 300
+    # Default queries — driven by config/conference.yaml at runtime.
+    default_queries:
+      - 'ti:"MICCAI 2026"'
+      - 'abs:"MICCAI 2026"'
+      - 'co:"MICCAI 2026"'
+      - 'ti:"MICCAI"'
+      - 'abs:"MICCAI"'
+      - 'co:"MICCAI"'
+
+# HTTP defaults that apply across all sources.
+http_defaults:
+  user_agent: "Awesome-MICCAI-2026/0.2 (https://github.com/ambicuity/Awesome-MICCAI-2026)"
+  follow_redirects: true
+  verify_tls: true
+
+# Cache settings.
+cache:
+  enabled: true
+  directory: ".cache/miccai_index"
+  ttl_seconds: 86400  # 24h
+  compress: false

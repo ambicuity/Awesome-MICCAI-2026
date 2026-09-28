@@ -1,0 +1,59 @@
+# Validation rules applied to generated data products and to the README.
+
+validation:
+  # Schema versions this validator understands.
+  supported_schema_versions:
+    - "1.0.0"
+
+  # Required paper fields. Other fields are tolerated but ignored by the
+  # strict validator.
+  required_paper_fields:
+    - id
+    - title
+    - identifiers
+    - venue
+    - track
+    - categories
+    - confidence
+    - provenance
+    - timestamps
+
+  # Confidence thresholds for label assignment. Labels below these thresholds
+  # are dropped.
+  confidence:
+    min_overall: 0.2
+    min_label:    0.1
+
+# Health thresholds for the daily update.
+health:
+  # If a single discovery run returns fewer than this fraction of the
+  # previously-known paper count, the run is considered degraded and the
+  # last-known-good artifact is preserved instead of overwritten.
+  minimum_coverage_ratio: 0.5
+  # Maximum allowed fraction of papers newly assigned a category (proxy for
+  # taxonomy drift).
+  max_category_drift_ratio: 0.3
+  # Maximum allowed fraction of papers with unavailable repository URLs in
+  # the new run vs. the previous run.
+  max_repository_loss_ratio: 0.4
+
+# README validation rules.
+readme:
+  category_order:
+    - Segmentation
+    - Reconstruction
+    - Classification
+    - Image Registration
+    - Domain Adaptation
+    - Generative Models
+    - General
+  required_markers:
+    - COVERAGE_REPORT
+    - SEGMENTATION_PAPERS
+    - RECONSTRUCTION_PAPERS
+    - CLASSIFICATION_PAPERS
+    - IMAGE_REGISTRATION_PAPERS
+    - DOMAIN_ADAPTATION_PAPERS
+    - GENERATIVE_MODELS_PAPERS
+    - GENERAL_PAPERS
+  entry_format: "**[{title}]({arxiv_url})** - [Code]({code}) (confidence: {confidence})"

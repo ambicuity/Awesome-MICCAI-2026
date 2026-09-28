@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ambicuity/Awesome-MICCAI-2026/schemas/paper.schema.json",
+  "title": "Paper",
+  "description": "Canonical schema for a paper record in the MICCAI research index.",
+  "type": "object",
+  "required": ["id", "title", "identifiers", "venue", "track", "categories", "confidence", "provenance", "timestamps"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable canonical identifier (arxiv:<id> or doi:<id> or uuid).",
+      "pattern": "^(arxiv|doi|uuid):.+$"
+    },
+    "title": {"type": "string", "minLength": 1},
+    "abstract": {"type": "string"},
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {"type": "string"},
+          "affiliation": {"type": "string"},
+          "orcid": {"type": "string"}
+        }
+      }
+    },
+    "identifiers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "arxiv": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {"type": "string", "pattern": "^\\d{4}\\.\\d{4,5}$"},
+            "version": {"type": "string", "pattern": "^v\\d+$"},
+            "url": {"type": "string", "format": "uri"},
+            "published": {"type": "string", "format": "date-time"},
+            "updated": {"type": "string", "format": "date-time"},
+            "comment": {"type": "string"}
+          }
+        },
+        "doi": {"type": "string"}
+      }
+    },
+    "venue": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": true,
+      "properties": {
+        "name": {"type": "string"},
+        "year": {"type": "integer", "minimum": 1900, "maximum": 2100},
+        "track": {"type": "string"},
+        "acm": {"type": "string"},
+        "openalex": {"type": "string"}
+      }
+    },
+    "track": {
+      "type": "string",
+      "enum": ["main", "workshop", "challenge", "tutorial", "dataset", "unknown"]
+    },
+    "categories": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "modalities": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "tasks": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "methods": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "datasets": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "keywords": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "host", "owner", "name", "relationship", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "host": {"type": "string"},
+          "owner": {"type": "string"},
+          "name": {"type": "string"},
+          "relationship": {
+            "type": "string",
+            "enum": [
+              "official_implementation",
+              "author_implementation",
+              "unofficial_reimplementation",
+              "dataset_repository",
+              "project_page",
+              "model_checkpoint",
+              "demo",
+              "unknown"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "verification": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "reachable",
+                  "redirected",
+                  "archived",
+                  "not_found",
+                  "rate_limited",
+                  "unverified",
+                  "unknown"
+                ]
+              },
+              "checked_at": {"type": "string", "format": "date-time"},
+              "source": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "conference_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "match", "strength"],
+        "additionalProperties": false,
+        "properties": {
+          "source": {"type": "string"},
+          "match": {"type": "string"},
+          "strength": {
+            "type": "string",
+            "enum": ["EXPLICIT_STRONG", "EXPLICIT", "INFERRED", "WEAK", "UNKNOWN"]
+          },
+          "year": {"type": ["integer", "null"]}
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": {"type": "number", "maximum": 1, "minimum": 0}
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["sources"],
+      "additionalProperties": false,
+      "properties": {
+        "sources": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "fetched_at": {"type": "string", "format": "date-time"},
+        "snapshot_id": {"type": ["string", "null"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": {"type": "number"},
+      "properties": {
+        "metadata_completeness": {"type": "number"},
+        "repository_accessibility": {"type": "number"},
+        "conference_evidence_strength": {"type": "number"},
+        "classification_confidence": {"type": "number"},
+        "duplicate_risk": {"type": "number"},
+        "freshness_days": {"type": "number"}
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "required": ["created_at", "updated_at"],
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {"type": "string", "format": "date-time"},
+        "updated_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}
