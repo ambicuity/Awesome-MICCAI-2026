@@ -32,6 +32,7 @@ This is a major rewrite. The list of papers you see below is preserved, but the 
 - **All repositories**: [`dist/repositories.json`](./dist/repositories.json)
 - **Browse by taxonomy**: [Tasks](#-segmentation) · [Modalities](#modality-browse) · [Methods](#method-browse) · [Tracks](#track-browse)
 - **Documentation**: [`ARCHITECTURE`](./docs/ARCHITECTURE.md) · [`DATA_MODEL`](./docs/DATA_MODEL.md) · [`TAXONOMY`](./docs/TAXONOMY.md) · [`DATA_SOURCES`](./docs/DATA_SOURCES.md) · [`AUTOMATION`](./docs/AUTOMATION.md) · [`CONTRIBUTING`](./CONTRIBUTING.md) · [`SECURITY`](./SECURITY.md)
+- **Agent instructions**: [`AGENTS.md`](./AGENTS.md) (all AI agents) · [`CLAUDE.md`](./CLAUDE.md) (Claude-family agents)
 
 ## 🔍 What This Project Is
 
