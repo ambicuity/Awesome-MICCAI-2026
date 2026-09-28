@@ -1,20 +1,22 @@
 # Contributing to Awesome MICCAI 2026
 
-Thank you for your interest in contributing to this curated list of MICCAI 2026 papers with public code!
+Thank you for your interest in contributing to this curated list of MICCAI papers with public code!
 
 ## 🤖 How This Repository Works
 
 This repository is **bot-maintained**. A GitHub Actions workflow runs daily to:
 
-1. Search arXiv for papers mentioning "MICCAI 2026"
+1. Search arXiv for papers mentioning "MICCAI"
 2. Extract papers that have public code repositories (GitHub, GitLab, Hugging Face)
 3. Normalize and validate repository links
-4. Apply weighted multi-label categorization
-5. Regenerate README category blocks and validate generated markdown
+4. Apply weighted multi-label categorization with explicit evidence
+5. Regenerate the README, data products, and validation report
 
 If any quality gate fails, the workflow fails and no update is committed.
 
 **Important:** Manual edits to auto-generated sections in `README.md` will be overwritten by the bot.
+
+The pipeline is **PR-based**: the daily workflow opens a pull request with the diff instead of force-pushing to `main`.
 
 ## 👥 Human Contributions
 
@@ -24,83 +26,67 @@ Human contributions are welcome for **quality control and oversight**. Your help
 
 | Contribution Type | How to Help |
 |------------------|-------------|
-| 🐛 **Report incorrect paper** | Not MICCAI 2026, stale entry, wrong metadata, malformed/broken link |
-| ➕ **Add missing paper** | Bot missed a valid MICCAI 2026 paper with code |
+| 🐛 **Report incorrect paper** | Not MICCAI, stale entry, wrong metadata, malformed/broken link |
+| ➕ **Add missing paper** | Bot missed a valid MICCAI paper with code |
 | 🔗 **Fix broken link** | Code repository link no longer works |
 | 🏷️ **Suggest category change** | Paper is in the wrong category |
-| 📁 **Propose new category** | Suggest a new category for better organization |
+| 🧬 **Suggest taxonomy change** | New task / modality / method label is needed |
+| 🛠️ **Improve the pipeline** | Bug fix, performance, observability |
 
-### Contribution Guidelines
+## 📋 Before Contributing
 
-#### ✅ Requirements for All Contributions
+- Read [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md) to understand the system.
+- Read [`docs/DATA_MODEL.md`](../docs/DATA_MODEL.md) to understand the schema.
+- Read [`docs/TAXONOMY.md`](../docs/TAXONOMY.md) to understand classification.
+- Search existing issues before opening a new one.
 
-1. **Paper must be associated with MICCAI 2026** — Include evidence (arXiv comment/proceedings/workshop page)
-2. **Code repository must be public** — Private repos cannot be verified
-3. **No duplicate entries** — Check the list before submitting
-4. **One paper per PR** — Keep changes focused and reviewable
+## 🐛 Reporting Issues
 
-#### ❌ What NOT to Edit Manually
+When reporting an issue, please include:
 
-- Auto-generated paper lists between `<!-- BEGIN ... -->` and `<!-- END ... -->` markers
-- The "Last Updated" timestamp
-- Any content that the bot regularly updates
+1. The arXiv ID of the paper.
+2. The category / track where it appears (or should appear).
+3. Why the current state is wrong.
+4. Evidence supporting your position (e.g., link to arXiv comment, link to repository).
 
-Manual edits to these sections **will be overwritten** on the next bot run.
+## ➕ Adding a Paper Manually
 
-## 📝 How to Contribute
+The bot cannot manually inject papers (to preserve provenance). To add a paper:
 
-### Reporting Issues
+1. Open an issue with the arXiv ID and the conference evidence line.
+2. A maintainer will run `python -m miccai_index build --offline` and open a PR with the data diff.
 
-Use our issue templates for:
+## 🏷️ Suggesting a Category Change
 
-- [Report an Error](../../issues/new?template=report_error.yml) — Wrong info, broken links, duplicates
-- [Add Missing Paper](../../issues/new?template=add_missing_paper.yml) — Paper the bot missed
-- [Suggest Category Change](../../issues/new?template=suggest_category.yml) — Improve classification
+The taxonomy is configured in `config/taxonomy.yaml`. To propose a change:
 
-When reporting issues, include direct evidence (URL + short explanation). Reports without evidence are harder to action.
+1. Open an issue describing the label.
+2. Provide 2-3 example papers that should match.
+3. Propose 2-3 example regex rules with weights.
 
-### Submitting Pull Requests
+Maintainers will evaluate and merge.
 
-1. Fork the repository
-2. Make your changes (one paper per PR)
-3. Fill out the PR template completely
-4. Submit for review
+## 🛠️ Improving the Pipeline
 
-**Note:** PRs that bulk-edit auto-generated content will be closed.
+To submit code changes:
 
-## 📂 Repository Structure
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/my-change`).
+3. Add tests for new behavior under `tests/`.
+4. Ensure `make test` passes.
+5. Ensure `make validate-offline` passes.
+6. Open a PR describing the rationale and tradeoffs.
 
-```
-.
-├── README.md              # Main awesome list (auto-updated)
-├── scripts/
-│   ├── update_papers.py   # Discovery, normalization, categorization, rendering
-│   └── validate_readme.py # README integrity and quality checks
-├── .github/
-│   ├── workflows/         # GitHub Actions automation
-│   ├── ISSUE_TEMPLATE/    # Issue templates
-│   └── CONTRIBUTING.md    # This file
-└── requirements.txt       # Python dependencies for bot
-```
+## 📝 Style Guide
 
-## 🏷️ Categories
+- Python: follow PEP 8; type hints are required for new public APIs.
+- YAML: 2-space indentation, no tabs.
+- Markdown: 80-character line soft wrap in prose; tables aligned.
 
-Papers are categorized into:
+## 🔒 Security
 
-- **Segmentation** — Medical image segmentation methods
-- **Reconstruction** — Image reconstruction and restoration
-- **Classification** — Disease classification and diagnosis
-- **Image Registration** — Alignment and transformation methods
-- **Domain Adaptation** — Transfer learning and cross-domain methods
-- **Generative Models** — GANs, diffusion models, VAEs
-- **General** — Papers that don't fit other categories
+See [`SECURITY.md`](../SECURITY.md) for reporting security issues.
 
-Multi-category appearances are expected for truly multi-task papers and are not treated as duplication.
+## 📜 License
 
-## ❓ Questions?
-
-If you're unsure about anything, feel free to open a [discussion](../../discussions) or issue. We're happy to help!
-
----
-
-Thank you for helping make this resource better for the medical imaging research community! 🏥
+By contributing, you agree that your contributions will be licensed under the Apache License 2.0.

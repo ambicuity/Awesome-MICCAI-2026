@@ -1,0 +1,469 @@
+# Hierarchical taxonomy of tasks, modalities, methods, and datasets used to
+# classify MICCAI papers. Each rule is a list of (regex, weight) tuples that
+# contribute evidence to the label; multi-label classification is supported.
+#
+# Weights must be small positive integers. A label is assigned when its
+# accumulated weighted evidence crosses the configured threshold.
+#
+# Rules must NOT be brittle single-keyword patterns — every label here uses
+# multiple evidence sources (title, abstract, comments) and is matched in
+# title-weighted form. See src/miccai_index/classification/rules.py.
+
+taxonomy_version: "1.0.0"
+
+# Tasks — what the paper is trying to accomplish.
+tasks:
+  - id: segmentation
+    label: "Segmentation"
+    threshold: 2
+    rules:
+      - pattern: "\\bsegmentation\\b"
+        weight: 3
+      - pattern: "\\bsegment\\b"
+        weight: 2
+      - pattern: "\\bdelineation\\b"
+        weight: 2
+      - pattern: "\\bcontour\\b"
+        weight: 2
+      - pattern: "\\bmask\\b"
+        weight: 1
+      - pattern: "\\bmasking\\b"
+        weight: 1
+  - id: classification
+    label: "Classification"
+    threshold: 2
+    rules:
+      - pattern: "\\bclassification\\b"
+        weight: 3
+      - pattern: "\\bclassify\\b"
+        weight: 2
+      - pattern: "\\bclassifier\\b"
+        weight: 2
+      - pattern: "\\brecognition\\b"
+        weight: 2
+      - pattern: "\\bdetection\\b"
+        weight: 2
+      - pattern: "\\bdiagnosis\\b"
+        weight: 1
+  - id: detection
+    label: "Detection"
+    threshold: 2
+    rules:
+      - pattern: "\\bobject detection\\b"
+        weight: 3
+      - pattern: "\\bleision detection\\b"
+        weight: 3
+      - pattern: "\\btumor detection\\b"
+        weight: 3
+      - pattern: "\\bnodule detection\\b"
+        weight: 3
+      - pattern: "\\bdetection\\b"
+        weight: 1
+  - id: registration
+    label: "Image Registration"
+    threshold: 2
+    rules:
+      - pattern: "\\bregistration\\b"
+        weight: 3
+      - pattern: "\\balignment\\b"
+        weight: 2
+      - pattern: "\\bdeformable\\b"
+        weight: 2
+      - pattern: "\\bdeformation\\b"
+        weight: 2
+  - id: reconstruction
+    label: "Reconstruction"
+    threshold: 2
+    rules:
+      - pattern: "\\breconstruction\\b"
+        weight: 3
+      - pattern: "\\breconstruct\\b"
+        weight: 2
+      - pattern: "\\brestoration\\b"
+        weight: 2
+      - pattern: "\\brestore\\b"
+        weight: 1
+      - pattern: "\\bsuper[- ]resolution\\b"
+        weight: 2
+      - pattern: "\\bdenoising\\b"
+        weight: 2
+  - id: generation
+    label: "Generation"
+    threshold: 2
+    rules:
+      - pattern: "\\bgenerative\\b"
+        weight: 3
+      - pattern: "\\bgeneration\\b"
+        weight: 2
+      - pattern: "\\bsynthesis\\b"
+        weight: 2
+      - pattern: "\\bimage synthesis\\b"
+        weight: 3
+  - id: domain_adaptation
+    label: "Domain Adaptation"
+    threshold: 2
+    rules:
+      - pattern: "\\bdomain adaptation\\b"
+        weight: 3
+      - pattern: "\\btransfer learning\\b"
+        weight: 2
+      - pattern: "\\bcross[- ]domain\\b"
+        weight: 2
+      - pattern: "\\bdomain shift\\b"
+        weight: 2
+      - pattern: "\\bdomain generalization\\b"
+        weight: 3
+      - pattern: "\\bgeneralization\\b"
+        weight: 1
+  - id: generative_models
+    label: "Generative Models"
+    threshold: 2
+    rules:
+      - pattern: "\\bgenerative adversarial\\b"
+        weight: 4
+      - pattern: "\\bgan\\b"
+        weight: 2
+      - pattern: "\\bdiffusion model\\b"
+        weight: 3
+      - pattern: "\\bdiffusion\\b"
+        weight: 2
+      - pattern: "\\bvae\\b"
+        weight: 2
+      - pattern: "\\bautoencoder\\b"
+        weight: 2
+      - pattern: "\\bflow matching\\b"
+        weight: 2
+      - pattern: "\\bscore[- ]based\\b"
+        weight: 2
+  - id: report_generation
+    label: "Report Generation"
+    threshold: 2
+    rules:
+      - pattern: "\\breport generation\\b"
+        weight: 3
+      - pattern: "\\bradiology report\\b"
+        weight: 3
+      - pattern: "\\bmedical report\\b"
+        weight: 2
+  - id: prognosis
+    label: "Prognosis"
+    threshold: 2
+    rules:
+      - pattern: "\\bprognosis\\b"
+        weight: 3
+      - pattern: "\\bprognostic\\b"
+        weight: 3
+      - pattern: "\\bsurvival analysis\\b"
+        weight: 3
+      - pattern: "\\bsurvival prediction\\b"
+        weight: 3
+      - pattern: "\\boutcome prediction\\b"
+        weight: 2
+  - id: tracking
+    label: "Tracking"
+    threshold: 2
+    rules:
+      - pattern: "\\btracking\\b"
+        weight: 3
+      - pattern: "\\binstrument tracking\\b"
+        weight: 4
+
+# Modalities — what imaging modality the paper operates on.
+modalities:
+  - id: mri
+    label: "MRI"
+    threshold: 2
+    rules:
+      - pattern: "\\bmri\\b"
+        weight: 3
+      - pattern: "\\bmagnetic resonance\\b"
+        weight: 3
+      - pattern: "\\bt1[- ]weighted\\b"
+        weight: 2
+      - pattern: "\\bt2[- ]weighted\\b"
+        weight: 2
+      - pattern: "\\bdiffusion[- ]weighted\\b"
+        weight: 2
+      - pattern: "\\bdwi\\b"
+        weight: 2
+      - pattern: "\\bfmri\\b"
+        weight: 2
+  - id: ct
+    label: "CT"
+    threshold: 2
+    rules:
+      - pattern: "\\bcomputed tomography\\b"
+        weight: 3
+      - pattern: "\\b ct\\b"
+        weight: 2
+      - pattern: "\\b ct-\\b"
+        weight: 2
+      - pattern: "\\bbect\\b"
+        weight: 1
+  - id: xray
+    label: "X-Ray"
+    threshold: 2
+    rules:
+      - pattern: "\\bx[- ]ray\\b"
+        weight: 3
+      - pattern: "\\bradiograph\\b"
+        weight: 3
+      - pattern: "\\bcbct\\b"
+        weight: 2
+  - id: ultrasound
+    label: "Ultrasound"
+    threshold: 2
+    rules:
+      - pattern: "\\bultrasound\\b"
+        weight: 3
+      - pattern: "\\bechocardiograph\\b"
+        weight: 3
+      - pattern: "\\bsonograph\\b"
+        weight: 2
+  - id: pathology
+    label: "Pathology"
+    threshold: 2
+    rules:
+      - pattern: "\\bpathology\\b"
+        weight: 3
+      - pattern: "\\bhistopathology\\b"
+        weight: 4
+      - pattern: "\\bwhole[- ]slide\\b"
+        weight: 3
+      - pattern: "\\bwsi\\b"
+        weight: 2
+      - pattern: "\\bhistolog\\b"
+        weight: 3
+  - id: oct
+    label: "OCT"
+    threshold: 2
+    rules:
+      - pattern: "\\boct\\b"
+        weight: 3
+      - pattern: "\\boptical coherence tomography\\b"
+        weight: 4
+      - pattern: "\\bocta\\b"
+        weight: 2
+  - id: pet
+    label: "PET"
+    threshold: 2
+    rules:
+      - pattern: "\\bpet\\b"
+        weight: 3
+      - pattern: "\\bpositron emission tomography\\b"
+        weight: 4
+  - id: endoscopy
+    label: "Endoscopy"
+    threshold: 2
+    rules:
+      - pattern: "\\bendoscop\\b"
+        weight: 3
+      - pattern: "\\bcolonoscop\\b"
+        weight: 3
+      - pattern: "\\blaparoscop\\b"
+        weight: 3
+  - id: dermoscopy
+    label: "Dermoscopy"
+    threshold: 2
+    rules:
+      - pattern: "\\bdermoscop\\b"
+        weight: 3
+      - pattern: "\\bskin lesion\\b"
+        weight: 2
+  - id: microscopy
+    label: "Microscopy"
+    threshold: 2
+    rules:
+      - pattern: "\\bmicroscop\\b"
+        weight: 3
+      - pattern: "\\bconfocal\\b"
+        weight: 2
+  - id: fundus
+    label: "Fundus"
+    threshold: 2
+    rules:
+      - pattern: "\\bfundus\\b"
+        weight: 3
+      - pattern: "\\bretinal\\b"
+        weight: 2
+      - pattern: "\\boptic disc\\b"
+        weight: 3
+
+# Methods — algorithmic families.
+methods:
+  - id: transformer
+    label: "Transformer"
+    threshold: 2
+    rules:
+      - pattern: "\\btransformer\\b"
+        weight: 3
+      - pattern: "\\bvit\\b"
+        weight: 3
+      - pattern: "\\bvision transformer\\b"
+        weight: 4
+      - pattern: "\\bswin\\b"
+        weight: 3
+  - id: cnn
+    label: "CNN"
+    threshold: 2
+    rules:
+      - pattern: "\\bconvolutional neural\\b"
+        weight: 3
+      - pattern: "\\bcnn\\b"
+        weight: 2
+      - pattern: "\\bresnet\\b"
+        weight: 2
+      - pattern: "\\bunet\\b"
+        weight: 3
+      - pattern: "\\b3d[- ]?cnn\\b"
+        weight: 3
+  - id: diffusion
+    label: "Diffusion"
+    threshold: 2
+    rules:
+      - pattern: "\\bdiffusion model\\b"
+        weight: 4
+      - pattern: "\\bdiffusion\\b"
+        weight: 2
+  - id: gan
+    label: "GAN"
+    threshold: 2
+    rules:
+      - pattern: "\\bgenerative adversarial\\b"
+        weight: 4
+      - pattern: "\\bgan\\b"
+        weight: 2
+  - id: foundation_model
+    label: "Foundation Model"
+    threshold: 2
+    rules:
+      - pattern: "\\bfoundation model\\b"
+        weight: 4
+      - pattern: "\\bpretrained model\\b"
+        weight: 3
+      - pattern: "\\bpre[- ]trained model\\b"
+        weight: 3
+      - pattern: "\\bself[- ]supervised pretraining\\b"
+        weight: 3
+  - id: sam
+    label: "SAM-family"
+    threshold: 2
+    rules:
+      - pattern: "\\bsam\\b"
+        weight: 3
+      - pattern: "\\bsegment anything\\b"
+        weight: 4
+      - pattern: "\\bmedsam\\b"
+        weight: 4
+  - id: vision_language_model
+    label: "Vision-Language Model"
+    threshold: 2
+    rules:
+      - pattern: "\\bvision[- ]language\\b"
+        weight: 4
+      - pattern: "\\bvlm\\b"
+        weight: 3
+      - pattern: "\\bclip\\b"
+        weight: 3
+      - pattern: "\\bcontrastive language[- ]image\\b"
+        weight: 4
+  - id: mamba
+    label: "Mamba / State Space Model"
+    threshold: 2
+    rules:
+      - pattern: "\\bmamba\\b"
+        weight: 4
+      - pattern: "\\bstate space model\\b"
+        weight: 3
+      - pattern: "\\bssm\\b"
+        weight: 2
+  - id: federated_learning
+    label: "Federated Learning"
+    threshold: 2
+    rules:
+      - pattern: "\\bfederated learning\\b"
+        weight: 4
+      - pattern: "\\bfederated\\b"
+        weight: 2
+  - id: self_supervised
+    label: "Self-Supervised Learning"
+    threshold: 2
+    rules:
+      - pattern: "\\bself[- ]supervised\\b"
+        weight: 3
+      - pattern: "\\bcontrastive learning\\b"
+        weight: 3
+      - pattern: "\\bmasked autoencoder\\b"
+        weight: 4
+      - pattern: "\\bmae\\b"
+        weight: 2
+  - id: few_shot
+    label: "Few-Shot Learning"
+    threshold: 2
+    rules:
+      - pattern: "\\bfew[- ]shot\\b"
+        weight: 4
+      - pattern: "\\bfew shot\\b"
+        weight: 4
+  - id: zero_shot
+    label: "Zero-Shot Learning"
+    threshold: 2
+    rules:
+      - pattern: "\\bzero[- ]shot\\b"
+        weight: 4
+      - pattern: "\\bzero shot\\b"
+        weight: 4
+  - id: semi_supervised
+    label: "Semi-Supervised Learning"
+    threshold: 2
+    rules:
+      - pattern: "\\bsemi[- ]supervised\\b"
+        weight: 4
+      - pattern: "\\bsemi supervised\\b"
+        weight: 4
+
+# Datasets — common medical-imaging dataset names (initial seed).
+datasets:
+  - id: brats
+    label: "BraTS"
+    patterns:
+      - "\\bbrats\\b"
+  - id: isic
+    label: "ISIC"
+    patterns:
+      - "\\bisic\\b"
+  - id: lidc
+    label: "LIDC-IDRI"
+    patterns:
+      - "\\blidc\\b"
+  - id: luna16
+    label: "LUNA16"
+    patterns:
+      - "\\bluna\\b"
+      - "\\bluna16\\b"
+  - id: acdc
+    label: "ACDC"
+    patterns:
+      - "\\bacdc\\b"
+  - id: chaos
+    label: "CHAOS"
+    patterns:
+      - "\\bchaos\\b"
+  - id: msd
+    label: "Medical Segmentation Decathlon"
+    patterns:
+      - "\\bmedical segmentation decathlon\\b"
+      - "\\bmsd\\b"
+  - id: kits
+    label: "KiTS"
+    patterns:
+      - "\\bkits\\b"
+  - id: synapse
+    label: "Synapse"
+    patterns:
+      - "\\bsynapse\\b"
+  - id: nih_chestxray
+    label: "NIH ChestX-ray"
+    patterns:
+      - "\\bnih[- ]chest\\b"
+      - "\\bchestx[- ]?ray14\\b"

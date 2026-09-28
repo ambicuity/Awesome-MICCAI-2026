@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ambicuity/Awesome-MICCAI-2026/schemas/index.schema.json",
+  "title": "Index",
+  "description": "Top-level index manifest describing the canonical dataset, build metadata, and statistics.",
+  "type": "object",
+  "required": ["version", "schema_version", "generated_at", "statistics", "tracks", "categories", "modalities", "methods"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {"type": "string"},
+    "schema_version": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source_snapshot_id": {"type": "string"},
+    "conference": {
+      "type": "object",
+      "required": ["name", "year"],
+      "properties": {
+        "name": {"type": "string"},
+        "year": {"type": "integer"}
+      }
+    },
+    "statistics": {
+      "type": "object",
+      "additionalProperties": {"type": "integer"},
+      "properties": {
+        "papers_total": {"type": "integer"},
+        "papers_with_code": {"type": "integer"},
+        "papers_unique": {"type": "integer"},
+        "papers_with_official_code": {"type": "integer"},
+        "papers_with_verified_code": {"type": "integer"},
+        "papers_uncertain": {"type": "integer"},
+        "papers_added_since_last_run": {"type": "integer"},
+        "papers_removed_since_last_run": {"type": "integer"},
+        "papers_updated_since_last_run": {"type": "integer"},
+        "fetched_records": {"type": "integer"},
+        "filtered_non_target": {"type": "integer"},
+        "filtered_track": {"type": "integer"},
+        "filtered_no_code": {"type": "integer"},
+        "duplicates_removed": {"type": "integer"}
+      }
+    },
+    "tracks": {
+      "type": "object",
+      "additionalProperties": {"type": "integer"}
+    },
+    "categories": {
+      "type": "object",
+      "additionalProperties": {"type": "integer"}
+    },
+    "modalities": {
+      "type": "object",
+      "additionalProperties": {"type": "integer"}
+    },
+    "methods": {
+      "type": "object",
+      "additionalProperties": {"type": "integer"}
+    },
+    "datasets": {
+      "type": "object",
+      "additionalProperties": {"type": "integer"}
+    },
+    "repository_hosts": {
+      "type": "object",
+      "additionalProperties": {"type": "integer"}
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ambicuity/Awesome-MICCAI-2026/schemas/repository.schema.json",
+  "title": "Repository",
+  "description": "Canonical schema for a code repository record.",
+  "type": "object",
+  "required": ["id", "host", "owner", "name", "url", "timestamps"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Canonical identifier of the form host:owner/name.",
+      "pattern": "^(github|gitlab|huggingface|hf):[^/]+/.+$"
+    },
+    "host": {
+      "type": "string",
+      "enum": ["github.com", "gitlab.com", "huggingface.co"]
+    },
+    "owner": {"type": "string"},
+    "name": {"type": "string"},
+    "url": {"type": "string", "format": "uri"},
+    "papers": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "reachable",
+            "redirected",
+            "archived",
+            "not_found",
+            "rate_limited",
+            "unverified",
+            "unknown"
+          ]
+        },
+        "checked_at": {"type": ["string", "null"]},
+        "source": {"type": ["string", "null"]}
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "required": ["first_seen", "last_seen"],
+      "additionalProperties": false,
+      "properties": {
+        "first_seen": {"type": ["string", "null"]},
+        "last_seen": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

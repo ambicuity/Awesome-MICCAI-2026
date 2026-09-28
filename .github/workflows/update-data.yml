@@ -1,0 +1,125 @@
+name: Update Data
+
+on:
+  schedule:
+    # Daily at 08:00 UTC. Times are staggered to avoid arXiv rate-limit overlap.
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "Conference scope"
+        required: false
+        default: "miccai-all-years"
+        type: choice
+        options:
+          - miccai-2026
+          - miccai-all-years
+      mode:
+        description: "Discovery mode"
+        required: false
+        default: "broad"
+        type: choice
+        options:
+          - broad
+          - strict
+      tracks:
+        description: "Track filter"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - main
+          - workshops
+          - challenges
+
+# Never run two scheduled updates in parallel; cancel superseded runs.
+concurrency:
+  group: update-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    name: Build and open PR
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run discovery + classification pipeline
+        id: build
+        env:
+          PYTHONPATH: src
+        run: |
+          set -e
+          python -m miccai_index build \
+            --scope "${{ inputs.scope || 'miccai-all-years' }}" \
+            --mode "${{ inputs.mode || 'broad' }}" \
+            --tracks "${{ inputs.tracks || 'all' }}" \
+            --verbose 2>&1 | tee build.log
+          echo "build_exit=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Write CI summary
+        if: always()
+        run: |
+          {
+            echo "## MICCAI Index Update"
+            echo
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Scope: \`${{ inputs.scope || 'miccai-all-years' }}\`"
+            echo "- Mode: \`${{ inputs.mode || 'broad' }}\`"
+            echo "- Tracks: \`${{ inputs.tracks || 'all' }}\`"
+            echo
+            if [ -f dist/index.json ]; then
+              echo "### Aggregate statistics"
+              echo
+              echo '```json'
+              cat dist/statistics.json
+              echo '```'
+            else
+              echo "No new data products produced (build failed or yielded no records)."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Create PR
+        if: steps.build.outputs.build_exit == '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "ci: update MICCAI index — automated"
+          title: "ci: automated MICCAI index update"
+          body: |
+            Automated daily update of the MICCAI research index.
+
+            - Source snapshot: see `data/snapshots/`
+            - Change log: see `data/changelog.jsonl`
+            - Validation: see CI job `validate`
+
+            :robot: This PR is opened by the `update-data` workflow. Maintainers should review the diff before merging.
+          branch: ci/automated-update-${{ github.run_id }}
+          branch-suffix: short-commit-hash
+          delete-branch: true
+          add-paths: |
+            data/
+            dist/
+            README.md
+            *.log

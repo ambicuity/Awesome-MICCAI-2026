@@ -1,0 +1,90 @@
+# MICCAI conference configuration
+#
+# Defines the conference scope, valid years, allowed tracks, and source hosts.
+# This file is the single source of truth for what counts as a "MICCAI paper"
+# in this index. The detector reads these rules and emits conference evidence.
+
+conference:
+  name: "MICCAI"
+  aliases:
+    - "Medical Image Computing and Computer-Assisted Intervention"
+    - "MICCAI"
+    - "miccai"
+  primary_scope_year: 2026
+  # Years for which we still want to index papers (legacy cross-year index).
+  supported_years:
+    - 2026
+    - 2025
+    - 2024
+    - 2023
+    - 2022
+    - 2021
+    - 2020
+
+# Track model.
+tracks:
+  - id: main
+    label: "Main Conference"
+    description: "Papers in the main MICCAI conference proceedings."
+  - id: workshop
+    label: "Workshop"
+    description: "Papers presented at a MICCAI-affiliated workshop."
+  - id: challenge
+    label: "Challenge"
+    description: "Papers associated with a MICCAI challenge or competition."
+  - id: tutorial
+    label: "Tutorial"
+    description: "Tutorials held in conjunction with MICCAI."
+  - id: dataset
+    label: "Dataset Paper"
+    description: "Papers that primarily introduce a dataset used at MICCAI."
+  - id: unknown
+    label: "Unknown Track"
+    description: "Track could not be determined from available evidence."
+
+# Allowed repository hosts for code links.
+repository_hosts:
+  - github.com
+  - gitlab.com
+  - huggingface.co
+
+# Evidence model — defines how strong a conference match must be to be
+# included by default. See docs/TAXONOMY.md for the rationale.
+conference_evidence:
+  levels:
+    - id: EXPLICIT_STRONG
+      label: "Explicit (strong)"
+      description: "Direct acceptance / publication statement."
+      patterns:
+        - "\\b(accepted|accepted to|accepted at|camera[- ]ready|to appear|to be published|published in)\\b.{0,40}\\bmiccai\\b"
+        - "\\bwill be (presented|published)\\b.{0,40}\\bmiccai\\b"
+    - id: EXPLICIT
+      label: "Explicit"
+      description: "Clear MICCAI mention with year or submission context."
+      patterns:
+        - "\\bmiccai\\s*[-_ ]?\\s*20\\d{2}\\b"
+        - "\\bmiccai\\s*[-_ ]?\\s*['’]?\\d{2}\\b"
+    - id: INFERRED
+      label: "Inferred"
+      description: "MICCAI mentioned without explicit acceptance statement."
+      patterns:
+        - "\\bmiccai\\b"
+    - id: WEAK
+      label: "Weak"
+      description: "Submission / under-review wording only."
+      patterns:
+        - "\\b(submitted|under review|preprint|preliminary)\\b.{0,40}\\bmiccai\\b"
+
+  # Minimum evidence strength required for inclusion at each scope.
+  scope_minimum:
+    miccai-2026: INFERRED
+    miccai-all-years: INFERRED
+
+# Default scopes
+scopes:
+  - id: miccai-2026
+    label: "MICCAI 2026 only"
+    description: "Strict scope: only MICCAI 2026 papers."
+  - id: miccai-all-years
+    label: "All MICCAI years"
+    description: "Broad scope: any MICCAI year."
